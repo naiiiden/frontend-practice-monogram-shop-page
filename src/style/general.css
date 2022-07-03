@@ -18,9 +18,12 @@ img {
 }
 
 header {
-  margin: 7px;
+  margin: 0 7px 7px 7px;
   padding: 7px;
   background: #1a2456;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 7px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -68,8 +71,9 @@ header .header--nav .header--nav--ul {
 
 @media screen and (min-width: 768px) {
   header {
-    margin: 15px;
+    margin: 0 15px 15px 15px;
     padding: 7.5px;
+    top: 15px;
   }
   header .header--buttons--container button {
     padding: 0px 10px;

@@ -1,7 +1,9 @@
 header {
-    margin: 7px;
+    margin: 0 7px 7px 7px;
     padding: 7px;
     background: $blue;
+    position: sticky;
+    top: 7px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -40,8 +42,9 @@ header {
 
 @media screen and (min-width: 768px) {
     header {
-        margin: 15px;
+        margin: 0 15px 15px 15px;
         padding: 7.5px;
+        top: 15px;
 
         .header--buttons--container {
             button {
