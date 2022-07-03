@@ -21,8 +21,9 @@ header {
   margin: 0 7px 7px 7px;
   padding: 7px;
   background: #1a2456;
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
+  left: 0;
+  right: 0;
   top: 7px;
   display: -webkit-box;
   display: -ms-flexbox;

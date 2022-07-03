@@ -2,7 +2,9 @@ header {
     margin: 0 7px 7px 7px;
     padding: 7px;
     background: $blue;
-    position: sticky;
+    position: fixed;
+    left: 0;
+    right: 0;
     top: 7px;
     display: flex;
     align-items: center;
