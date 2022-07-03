@@ -65,4 +65,14 @@ header .header--nav {
 header .header--nav .header--nav--ul {
   display: none;
 }
+
+@media screen and (min-width: 768px) {
+  header {
+    margin: 15px;
+    padding: 7.5px;
+  }
+  header .header--buttons--container button {
+    padding: 0px 10px;
+  }
+}
 /*# sourceMappingURL=general.css.map */
