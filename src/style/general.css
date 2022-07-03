@@ -75,4 +75,45 @@ header .header--nav .header--nav--ul {
     padding: 0px 10px;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  header .header--buttons--container {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    margin-left: 7.5px;
+  }
+  header .header--nav {
+    margin-left: auto;
+    width: unset;
+  }
+  header .header--nav .header--nav--ul {
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .header--nav .header--nav--ul li {
+    padding: 0 17.5px;
+  }
+  header .header--nav .header--nav--ul li a {
+    font-size: .75rem;
+    color: #efc2b3;
+    text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 2px;
+  }
+  header .header--nav .header--nav--ul li a.link--bold {
+    font-weight: 600;
+  }
+  header .header--nav .header--nav--ul .header--desktop--dropdown {
+    display: none;
+  }
+}
 /*# sourceMappingURL=general.css.map */

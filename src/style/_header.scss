@@ -50,3 +50,45 @@ header {
         }
     }
 }
+
+@media screen and (min-width: 1024px) {
+    header {
+        .header--buttons--container {
+            order: 3;
+            margin-left: 7.5px;
+        }
+
+        .header--nav {
+            margin-left: auto;
+            width: unset;
+
+            .header--nav--ul {
+                list-style-type: none;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+
+                li {
+                    padding: 0 17.5px;
+
+                    a {
+                        font-size: .75rem;
+                        color: $secondary;
+                        text-decoration: none;
+                        line-height: 1.5;
+                        letter-spacing: 2px;
+                    
+
+                        &.link--bold {
+                            font-weight: 600;
+                        }
+                    }
+                }
+
+                .header--desktop--dropdown {
+                    display: none;
+                }
+            }
+        }
+    }
+}
