@@ -1,0 +1,39 @@
+header {
+    margin: 7px;
+    padding: 7px;
+    background: $blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .monogram {
+        fill: $secondary
+    }
+
+    .header--buttons--container {
+        display: flex;
+
+        button {
+            padding: 0 7px;
+            border: none;
+            background: none;
+
+            .menu--icon {
+                fill: $secondary;
+            }
+
+            .cart--icon {
+                fill: $secondary;
+            }
+        }
+    }
+
+    .header--nav {
+        width: 100%;
+
+        .header--nav--ul {
+            display: none;
+        }
+    }
+}
