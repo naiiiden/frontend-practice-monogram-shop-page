@@ -1,8 +1,12 @@
 import "./style/general.css";
+import { ReactComponent as Logo2 } from "./images/monogram.svg";
 
 const App = () => {
   return (
-    <p>hey</p>
+    <div>
+      <p>hey</p>
+      <Logo2/>
+    </div>
   )
 }
 
