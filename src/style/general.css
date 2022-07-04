@@ -74,6 +74,7 @@ header .header--nav .header--nav--ul {
           transform: translate(-100%);
   -webkit-transition: .3s;
   transition: .3s;
+  height: 100%;
 }
 
 header .header--nav .header--nav--ul.show {
@@ -146,6 +147,12 @@ header .header--nav .header--nav--ul button {
 
 header .header--nav .header--nav--ul button .close {
   fill: #efc2b3;
+}
+
+@media screen and (min-width: 375px) {
+  header .header--nav .header--nav--ul {
+    width: 350px;
+  }
 }
 
 @media screen and (min-width: 768px) {

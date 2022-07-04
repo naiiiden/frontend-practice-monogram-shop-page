@@ -41,6 +41,7 @@ header {
             list-style-type: none;
             transform: translate(-100%);
             transition: .3s;
+            height: 100%;
 
             &.show {
                 display: flex;
@@ -99,6 +100,16 @@ header {
                 .close {
                     fill: $secondary;
                 }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 375px) {
+    header {
+        .header--nav {
+            .header--nav--ul {
+                width: 350px;
             }
         }
     }
