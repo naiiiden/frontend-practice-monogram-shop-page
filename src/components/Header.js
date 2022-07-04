@@ -45,7 +45,7 @@ const Header = () => {
                     <li><a href="https://monogramcc.com/download/">DOWNLOAD</a></li>
                     <li><a href="https://monogramcc.com/blog/">BLOG</a></li>
                     <li><a href="https://support.monogramcc.com/">SUPPORT</a></li>
-                    <li><a href="https://monogramcc.com/shop/" className="link--bold">SHOP</a></li>
+                    <li><a aria-current="page" href="#0" className="link--bold">SHOP</a></li>
                 </ul>
             </nav>
         </header>) : (

@@ -81,6 +81,10 @@ header {
                     font-size: .875rem;
                     line-height: 1.2;
                     letter-spacing: 1.5px;
+
+                    &.link--bold {
+                        font-weight: 600;
+                    }
                 }
 
 
