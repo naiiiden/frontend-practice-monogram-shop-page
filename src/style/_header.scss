@@ -83,12 +83,19 @@ header {
                         line-height: 1.5;
                         letter-spacing: 2px;
                     
+                        &:hover {
+                            color: #e28f74;
+                        }
 
                         &.link--bold {
                             font-weight: 600;
                         }
 
                         &.dropdown--link {
+                            &:hover {
+                                color: hsla(0,0%,100%,.75);
+                            }
+
                             &::after {
                                 margin-left: 5px;
                                 content: "▼";

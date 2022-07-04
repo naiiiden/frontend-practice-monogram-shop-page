@@ -115,8 +115,14 @@ header .header--nav .header--nav--ul {
     line-height: 1.5;
     letter-spacing: 2px;
   }
+  header .header--nav .header--nav--ul li a:hover {
+    color: #e28f74;
+  }
   header .header--nav .header--nav--ul li a.link--bold {
     font-weight: 600;
+  }
+  header .header--nav .header--nav--ul li a.dropdown--link:hover {
+    color: rgba(255, 255, 255, 0.75);
   }
   header .header--nav .header--nav--ul li a.dropdown--link::after {
     margin-left: 5px;
