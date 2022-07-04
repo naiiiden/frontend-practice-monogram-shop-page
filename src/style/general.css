@@ -99,7 +99,36 @@ header .header--nav .header--nav--ul.show {
   transition: .4s;
 }
 
-header .header--nav .header--nav--ul .logo--close--container {
+header .header--nav .header--nav--ul.show li {
+  padding: .625rem .75rem .625rem 0;
+  margin-left: 77px;
+  display: block;
+  font-weight: 300;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  margin-right: 1rem;
+}
+
+header .header--nav .header--nav--ul.show li a {
+  color: #efc2b3;
+  text-decoration: none;
+  font-size: .875rem;
+  line-height: 1.2;
+  letter-spacing: 1.5px;
+}
+
+header .header--nav .header--nav--ul.show li a.link--bold {
+  font-weight: 600;
+}
+
+header .header--nav .header--nav--ul.show li.link-padding-left {
+  margin-left: 95px;
+}
+
+header .header--nav .header--nav--ul.show li:nth-last-child(1) {
+  border-bottom: unset;
+}
+
+header .header--nav .header--nav--ul.show .logo--close--container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -112,35 +141,6 @@ header .header--nav .header--nav--ul .logo--close--container {
   padding: .875rem .875rem .5rem .875rem;
   margin-left: unset;
   margin-right: unset;
-  border-bottom: unset;
-}
-
-header .header--nav .header--nav--ul li {
-  padding: .625rem .75rem .625rem 0;
-  margin-left: 77px;
-  display: block;
-  font-weight: 300;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-  margin-right: 1rem;
-}
-
-header .header--nav .header--nav--ul li a {
-  color: #efc2b3;
-  text-decoration: none;
-  font-size: .875rem;
-  line-height: 1.2;
-  letter-spacing: 1.5px;
-}
-
-header .header--nav .header--nav--ul li a.link--bold {
-  font-weight: 600;
-}
-
-header .header--nav .header--nav--ul li.link-padding-left {
-  margin-left: 95px;
-}
-
-header .header--nav .header--nav--ul li:nth-last-child(1) {
   border-bottom: unset;
 }
 
@@ -182,6 +182,7 @@ header .header--nav .header--nav--ul button .close {
     width: unset;
   }
   header .header--nav .header--nav--ul {
+    width: unset;
     list-style-type: none;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -192,6 +193,8 @@ header .header--nav .header--nav--ul button .close {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-transform: unset;
+            transform: unset;
   }
   header .header--nav .header--nav--ul li {
     padding: 0 17.5px;
