@@ -52,7 +52,7 @@ const Header = () => {
                 <ul className="header--nav--ul">
                     <li><a href="#">HOW IT WORKS</a></li>
                     <li>
-                        <a href="#">WORKFLOWS</a>
+                        <a href="#" className="dropdown--link">WORKFLOWS</a>
                         <ul className="header--desktop--dropdown">
                             <li className="link-padding-left"><a href="#">PHOTO CONSOLE</a></li>
                             <li className="link-padding-left"><a href="#">VIDEO CONSOLE</a></li>

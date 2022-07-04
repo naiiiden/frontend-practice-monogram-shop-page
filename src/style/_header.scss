@@ -87,6 +87,13 @@ header {
                         &.link--bold {
                             font-weight: 600;
                         }
+
+                        &.dropdown--link {
+                            &::after {
+                                margin-left: 5px;
+                                content: "▼";
+                            }
+                        }
                     }
                 }
 
