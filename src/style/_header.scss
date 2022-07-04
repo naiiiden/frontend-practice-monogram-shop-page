@@ -38,6 +38,11 @@ header {
 
         .header--nav--ul {
             display: none;
+
+            &.show {
+                display: flex;
+                flex-direction: column;
+            }
         }
     }
 }

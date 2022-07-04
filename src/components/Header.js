@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 
 const Header = () => {
     const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1024);
+    const [openMenu, setOpenMenu] = useState(false); 
 
     const updateMedia = () => setIsDesktop(window.innerWidth >= 1024);
 
@@ -18,7 +19,7 @@ const Header = () => {
         {!isDesktop ? (<header>
             <Monogram className="monogram"/>
             <div className="header--buttons--container">
-                <button aria-label="Open menu">
+                <button aria-label="Open menu" onClick={() => setOpenMenu(!openMenu)}>
                     <Menu className="menu--icon"/>
                 </button>
                 <button aria-label="Go to checkout">
@@ -26,7 +27,7 @@ const Header = () => {
                 </button>
             </div>
             <nav className="header--nav">
-                <ul className="header--nav--ul">
+                <ul className={`header--nav--ul ${openMenu ? "show" : ""}`}>
                     <li><a href="https://monogramcc.com/how-it-works/">HOW IT WORKS</a></li>
                     <li><a href="https://monogramcc.com/workflows/photo/">WORKFLOWS</a></li>
                     <li className="link-padding-left"><a href="https://monogramcc.com/workflows/photo/">PHOTO CONSOLE</a></li>
@@ -52,7 +53,7 @@ const Header = () => {
                 <ul className="header--nav--ul">
                     <li><a href="https://monogramcc.com/how-it-works/">HOW IT WORKS</a></li>
                     <li>
-                        <a aria-haspopup="true" role="button" href="#" className="dropdown--link">WORKFLOWS</a>
+                        <a aria-haspopup="true" role="button" href="#0" className="dropdown--link">WORKFLOWS</a>
                         <ul className="header--desktop--dropdown">
                             <li className="link-padding-left"><a href="https://monogramcc.com/workflows/photo/">PHOTO CONSOLE</a></li>
                             <li className="link-padding-left"><a href="https://monogramcc.com/workflows/video/">VIDEO CONSOLE</a></li>
