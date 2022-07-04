@@ -65,11 +65,15 @@ header .header--buttons--container button .cart--icon {
 
 header .header--nav {
   width: 100%;
+  height: 0;
 }
 
 header .header--nav .header--nav--ul {
-  display: none;
   list-style-type: none;
+  -webkit-transform: translate(-100%);
+          transform: translate(-100%);
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 header .header--nav .header--nav--ul.show {
@@ -86,6 +90,10 @@ header .header--nav .header--nav--ul.show {
   left: 0;
   right: 0;
   background: #1a2456;
+  -webkit-transform: translate(0);
+          transform: translate(0);
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 header .header--nav .header--nav--ul .logo--close--container {
@@ -98,7 +106,7 @@ header .header--nav .header--nav--ul .logo--close--container {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 1rem 1rem .5rem 1rem;
+  padding: .875rem .875rem .5rem .875rem;
   margin-left: unset;
   margin-right: unset;
   border-bottom: unset;

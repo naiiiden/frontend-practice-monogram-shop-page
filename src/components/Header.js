@@ -20,7 +20,7 @@ const Header = () => {
         {!isDesktop ? (<header>
             <Monogram className="monogram"/>
             <div className="header--buttons--container">
-                <button aria-label="Open menu" onClick={() => setOpenMenu(!openMenu)}>
+                <button aria-label="Open menu" onClick={() => setOpenMenu(true)}>
                     <Menu className="menu--icon"/>
                 </button>
                 <button aria-label="Go to checkout">
@@ -31,7 +31,7 @@ const Header = () => {
                 <ul className={`header--nav--ul ${openMenu ? "show" : ""}`}>
                     <li className="logo--close--container">
                         <Monogram className="monogram"/>
-                        <button aria-label="Close menu" onClick={() => setOpenMenu(!openMenu)} className="close--button">
+                        <button aria-label="Close menu" onClick={() => setOpenMenu(false)} className="close--button">
                             <Close className="close"/>
                         </button>
                     </li>
