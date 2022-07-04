@@ -125,7 +125,6 @@ header .header--nav .header--nav--ul {
     color: rgba(255, 255, 255, 0.75);
   }
   header .header--nav .header--nav--ul li a.dropdown--link::after {
-    margin-left: 5px;
     content: "▼";
   }
   header .header--nav .header--nav--ul .header--desktop--dropdown {

@@ -27,17 +27,17 @@ const Header = () => {
             </div>
             <nav className="header--nav">
                 <ul className="header--nav--ul">
-                    <li><a href="#">HOW IT WORKS</a></li>
-                    <li><a href="#">WORKFLOWS</a></li>
-                    <li className="link-padding-left"><a href="#">PHOTO CONSOLE</a></li>
-                    <li className="link-padding-left"><a href="#">VIDEO CONSOLE</a></li>
-                    <li className="link-padding-left"><a href="#">AUDIO CONSOLE</a></li>
-                    <li className="link-padding-left"><a href="#">VIRTUAL PRODUCTION</a></li>
-                    <li className="link-padding-left"><a href="#">MINI CONSOLE</a></li>
-                    <li><a href="#">DOWNLOAD</a></li>
-                    <li><a href="#">BLOG</a></li>
-                    <li><a href="#">SUPPORT</a></li>
-                    <li><a href="#" className="link--bold">SHOP</a></li>
+                    <li><a href="https://monogramcc.com/how-it-works/">HOW IT WORKS</a></li>
+                    <li><a href="#0">WORKFLOWS</a></li>
+                    <li className="link-padding-left"><a href="https://monogramcc.com/workflows/photo/">PHOTO CONSOLE</a></li>
+                    <li className="link-padding-left"><a href="https://monogramcc.com/workflows/video/">VIDEO CONSOLE</a></li>
+                    <li className="link-padding-left"><a href="https://monogramcc.com/workflows/audio/">AUDIO CONSOLE</a></li>
+                    <li className="link-padding-left"><a href="https://monogramcc.com/workflows/virtual-production/">VIRTUAL PRODUCTION</a></li>
+                    <li className="link-padding-left"><a href="https://monogramcc.com/workflows/everyday-essentials/">MINI CONSOLE</a></li>
+                    <li><a href="https://monogramcc.com/download/">DOWNLOAD</a></li>
+                    <li><a href="https://monogramcc.com/blog/">BLOG</a></li>
+                    <li><a href="https://support.monogramcc.com/">SUPPORT</a></li>
+                    <li><a href="https://monogramcc.com/shop/" className="link--bold">SHOP</a></li>
                 </ul>
             </nav>
         </header>) : (
@@ -50,21 +50,21 @@ const Header = () => {
             </div>
             <nav className="header--nav">
                 <ul className="header--nav--ul">
-                    <li><a href="#">HOW IT WORKS</a></li>
+                    <li><a href="https://monogramcc.com/how-it-works/">HOW IT WORKS</a></li>
                     <li>
-                        <a href="#" className="dropdown--link">WORKFLOWS</a>
+                        <a href="#0" className="dropdown--link">WORKFLOWS</a>
                         <ul className="header--desktop--dropdown">
-                            <li className="link-padding-left"><a href="#">PHOTO CONSOLE</a></li>
-                            <li className="link-padding-left"><a href="#">VIDEO CONSOLE</a></li>
-                            <li className="link-padding-left"><a href="#">AUDIO CONSOLE</a></li>
-                            <li className="link-padding-left"><a href="#">VIRTUAL PRODUCTION</a></li>
-                            <li className="link-padding-left"><a href="#">MINI CONSOLE</a></li>
+                            <li className="link-padding-left"><a href="https://monogramcc.com/workflows/photo/">PHOTO CONSOLE</a></li>
+                            <li className="link-padding-left"><a href="https://monogramcc.com/workflows/video/">VIDEO CONSOLE</a></li>
+                            <li className="link-padding-left"><a href="https://monogramcc.com/workflows/audio/">AUDIO CONSOLE</a></li>
+                            <li className="link-padding-left"><a href="https://monogramcc.com/workflows/virtual-production/">VIRTUAL PRODUCTION</a></li>
+                            <li className="link-padding-left"><a href="https://monogramcc.com/workflows/everyday-essentials/">MINI CONSOLE</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">DOWNLOAD</a></li>
-                    <li><a href="#">BLOG</a></li>
-                    <li><a href="#">SUPPORT</a></li>
-                    <li><a href="#" className="link--bold">SHOP</a></li>
+                    <li><a href="https://monogramcc.com/download/">DOWNLOAD</a></li>
+                    <li><a href="https://monogramcc.com/blog/">BLOG</a></li>
+                    <li><a href="https://support.monogramcc.com/">SUPPORT</a></li>
+                    <li><a href="https://monogramcc.com/shop/" className="link--bold">SHOP</a></li>
                 </ul>
             </nav>
         </header>
