@@ -1,6 +1,7 @@
 import { ReactComponent as Monogram } from "../images/monogram.svg";
 import { ReactComponent as Menu} from "../images/menu.svg";
 import { ReactComponent as Cart } from "../images/cart.svg";
+import { ReactComponent as Close } from "../images/close.svg";
 import { useState, useEffect } from "react";
 
 const Header = () => {
@@ -28,6 +29,12 @@ const Header = () => {
             </div>
             <nav className="header--nav">
                 <ul className={`header--nav--ul ${openMenu ? "show" : ""}`}>
+                    <li className="logo--close--container">
+                        <Monogram className="monogram"/>
+                        <button aria-label="Close menu" onClick={() => setOpenMenu(!openMenu)} className="close--button">
+                            <Close className="close"/>
+                        </button>
+                    </li>
                     <li><a href="https://monogramcc.com/how-it-works/">HOW IT WORKS</a></li>
                     <li><a href="https://monogramcc.com/workflows/photo/">WORKFLOWS</a></li>
                     <li className="link-padding-left"><a href="https://monogramcc.com/workflows/photo/">PHOTO CONSOLE</a></li>

@@ -38,10 +38,62 @@ header {
 
         .header--nav--ul {
             display: none;
+            list-style-type: none;
 
             &.show {
                 display: flex;
                 flex-direction: column;
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: $blue;
+            }
+
+            .logo--close--container {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 1rem 1rem .5rem 1rem;
+                margin-left: unset;
+                margin-right: unset;
+                border-bottom: unset;
+            }
+
+            li {
+                padding: .625rem .75rem .625rem 0;
+                margin-left: 77px;
+                display: block;
+                font-weight: 300;
+                border-bottom: 1px solid rgba(0,0,0,.125);
+                margin-right: 1rem;
+
+                a {
+                    color: $secondary;
+                    text-decoration: none;
+                    font-size: .875rem;
+                    line-height: 1.2;
+                    letter-spacing: 1.5px;
+                }
+
+
+                &.link-padding-left {
+                    margin-left: 95px;
+                }
+
+                &:nth-last-child(1) {
+                    border-bottom: unset;
+                }
+            }
+
+            button {
+                border: none;
+                background: none;
+
+                .close {
+                    fill: $secondary;
+                }
             }
         }
     }
