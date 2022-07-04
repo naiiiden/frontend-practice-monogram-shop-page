@@ -28,7 +28,7 @@ const Header = () => {
             <nav className="header--nav">
                 <ul className="header--nav--ul">
                     <li><a href="https://monogramcc.com/how-it-works/">HOW IT WORKS</a></li>
-                    <li><a href="#0">WORKFLOWS</a></li>
+                    <li><a href="https://monogramcc.com/workflows/photo/">WORKFLOWS</a></li>
                     <li className="link-padding-left"><a href="https://monogramcc.com/workflows/photo/">PHOTO CONSOLE</a></li>
                     <li className="link-padding-left"><a href="https://monogramcc.com/workflows/video/">VIDEO CONSOLE</a></li>
                     <li className="link-padding-left"><a href="https://monogramcc.com/workflows/audio/">AUDIO CONSOLE</a></li>
@@ -52,7 +52,7 @@ const Header = () => {
                 <ul className="header--nav--ul">
                     <li><a href="https://monogramcc.com/how-it-works/">HOW IT WORKS</a></li>
                     <li>
-                        <a href="#0" className="dropdown--link">WORKFLOWS</a>
+                        <a aria-haspopup="true" role="button" href="#" className="dropdown--link">WORKFLOWS</a>
                         <ul className="header--desktop--dropdown">
                             <li className="link-padding-left"><a href="https://monogramcc.com/workflows/photo/">PHOTO CONSOLE</a></li>
                             <li className="link-padding-left"><a href="https://monogramcc.com/workflows/video/">VIDEO CONSOLE</a></li>
