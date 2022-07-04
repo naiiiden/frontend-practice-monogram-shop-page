@@ -52,7 +52,8 @@ header {
                 right: 0;
                 background: $blue;
                 transform: translate(0);
-                transition: .5s;
+                box-shadow: 50vw 0 50rem 100vw rgba(0, 0, 0, .75);
+                transition: .4s;
             }
 
             .logo--close--container {

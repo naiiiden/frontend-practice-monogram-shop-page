@@ -92,8 +92,10 @@ header .header--nav .header--nav--ul.show {
   background: #1a2456;
   -webkit-transform: translate(0);
           transform: translate(0);
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-box-shadow: 50vw 0 50rem 100vw rgba(0, 0, 0, 0.75);
+          box-shadow: 50vw 0 50rem 100vw rgba(0, 0, 0, 0.75);
+  -webkit-transition: .4s;
+  transition: .4s;
 }
 
 header .header--nav .header--nav--ul .logo--close--container {
