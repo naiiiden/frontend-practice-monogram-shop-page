@@ -266,7 +266,8 @@ header .header--nav .header--nav--ul button .close {
     color: rgba(255, 255, 255, 0.75);
   }
   header .header--nav .header--nav--ul li a.dropdown--link::after {
-    content: "▼";
+    margin-left: 3px;
+    content: "⏷";
   }
 }
 /*# sourceMappingURL=general.css.map */

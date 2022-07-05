@@ -232,7 +232,8 @@ header {
                             }
 
                             &::after {
-                                content: "▼";
+                                margin-left: 3px;
+                                content: "⏷";
                             }
                         }
                     }
