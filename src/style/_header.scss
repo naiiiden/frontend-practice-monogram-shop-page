@@ -166,6 +166,12 @@ header {
                     &.dropdown--link {
                         position: relative;
                         padding: 7.5px 17.5px;
+
+                        &.active {
+                            a {
+                                color: rgba(255, 255, 255, 0.75);
+                            }
+                        }
                     
 
                         .header--desktop--dropdown {

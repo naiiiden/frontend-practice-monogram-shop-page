@@ -62,7 +62,7 @@ const Header = () => {
             <nav className="header--nav">
                 <ul className="header--nav--ul">
                     <li><a href="https://monogramcc.com/how-it-works/">HOW IT WORKS</a></li>
-                    <li className="dropdown--link">
+                    <li className={`dropdown--link ${openDesktopMenu ? "active" : ""}`}>
                         <a aria-haspopup="true" role="button" href="#0" className="dropdown--link" onClick={() => setOpenDesktopMenu(!openDesktopMenu)}>WORKFLOWS</a>
                         <ul className={`header--desktop--dropdown ${openDesktopMenu ? "showDesktop" : ""}`}>
                             <li className="link-padding-left"><a href="https://monogramcc.com/workflows/photo/">PHOTO CONSOLE</a></li>

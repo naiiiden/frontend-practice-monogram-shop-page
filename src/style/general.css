@@ -207,6 +207,9 @@ header .header--nav .header--nav--ul button .close {
     position: relative;
     padding: 7.5px 17.5px;
   }
+  header .header--nav .header--nav--ul li.dropdown--link.active a {
+    color: rgba(255, 255, 255, 0.75);
+  }
   header .header--nav .header--nav--ul li.dropdown--link .header--desktop--dropdown {
     display: none;
   }
