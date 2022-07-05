@@ -199,6 +199,20 @@ header .header--nav .header--nav--ul button .close {
   header .header--nav .header--nav--ul li {
     padding: 0 17.5px;
   }
+  header .header--nav .header--nav--ul li.dropdown--link {
+    position: relative;
+  }
+  header .header--nav .header--nav--ul li.dropdown--link .header--desktop--dropdown {
+    display: none;
+  }
+  header .header--nav .header--nav--ul li.dropdown--link .showDesktop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    background: red;
+  }
   header .header--nav .header--nav--ul li a {
     font-size: .75rem;
     color: #efc2b3;
@@ -217,9 +231,6 @@ header .header--nav .header--nav--ul button .close {
   }
   header .header--nav .header--nav--ul li a.dropdown--link::after {
     content: "▼";
-  }
-  header .header--nav .header--nav--ul .header--desktop--dropdown {
-    display: none;
   }
 }
 /*# sourceMappingURL=general.css.map */

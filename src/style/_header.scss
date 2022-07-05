@@ -158,6 +158,22 @@ header {
                 li {
                     padding: 0 17.5px;
 
+                    &.dropdown--link {
+                        position: relative;
+                        
+                        .header--desktop--dropdown {
+                            display: none;
+                        }
+
+                        .showDesktop {
+                            display: flex;
+                            position: absolute;
+                            bottom: 0;
+                            background: red;
+                        }
+                    }
+                    
+
                     a {
                         font-size: .75rem;
                         color: $secondary;
@@ -183,10 +199,6 @@ header {
                             }
                         }
                     }
-                }
-
-                .header--desktop--dropdown {
-                    display: none;
                 }
             }
         }
