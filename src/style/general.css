@@ -205,6 +205,7 @@ header .header--nav .header--nav--ul button .close {
   }
   header .header--nav .header--nav--ul li.dropdown--link {
     position: relative;
+    padding: 7.5px 17.5px;
   }
   header .header--nav .header--nav--ul li.dropdown--link .header--desktop--dropdown {
     display: none;
@@ -223,7 +224,7 @@ header .header--nav .header--nav--ul button .close {
         -ms-flex-direction: column;
             flex-direction: column;
     position: absolute;
-    bottom: -11rem;
+    top: 100%;
     min-width: 10rem;
     background: #fff;
     padding: 7.5px 0;
