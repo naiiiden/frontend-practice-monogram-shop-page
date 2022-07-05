@@ -158,6 +158,11 @@ header {
                 li {
                     padding: 0 17.5px;
 
+                    &.link-padding-left {
+                        margin-left: unset;
+                        padding: unset;
+                    }
+
                     &.dropdown--link {
                         position: relative;
                         
@@ -166,10 +171,27 @@ header {
                         }
 
                         .showDesktop {
+                            box-shadow: 0 1em 2.5em rgba(0,0,0,.333);
+                            border: 1px solid rgba(0,0,0,.15);
+                            border-radius: 0;
+                            list-style-type: none;
                             display: flex;
+                            flex-direction: column;
                             position: absolute;
-                            bottom: 0;
-                            background: red;
+                            bottom: -11rem;
+                            min-width: 10rem;
+                            background: #fff;
+                            padding: 7.5px 0;
+                            
+                            a {
+                                color: #212529;
+                                font-weight: 300;
+                                font-size: .9375rem;
+                                white-space: nowrap;
+                                width: 100%;
+                                display: inline-block;
+                                padding: 3.75px 22.5px;
+                            }
                         }
                     }
                     
