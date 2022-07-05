@@ -191,6 +191,13 @@ header {
                                 width: 100%;
                                 display: inline-block;
                                 padding: 3.75px 22.5px;
+                                transition: .2s;
+
+                                &:hover {
+                                    color: #16181b;
+                                    background-color: #e9ecef;
+                                    transition: .2s;
+                                }
                             }
                         }
                     }

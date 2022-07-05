@@ -236,6 +236,14 @@ header .header--nav .header--nav--ul button .close {
     width: 100%;
     display: inline-block;
     padding: 3.75px 22.5px;
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  header .header--nav .header--nav--ul li.dropdown--link .showDesktop a:hover {
+    color: #16181b;
+    background-color: #e9ecef;
+    -webkit-transition: .2s;
+    transition: .2s;
   }
   header .header--nav .header--nav--ul li a {
     font-size: .75rem;
