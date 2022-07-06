@@ -16,7 +16,7 @@ const App = () => {
       <Header/>
       <main>
         <Hero h1Text="A CONSOLE FOR EVERY WORKFLOW" pText="Discover the perfect console for yours."/>
-        <Product preOrder={true} src={hoverImage ? console_care : console_care2} onMouseOver={() => (setHoverImage(!hoverImage), console.log(1))}/>
+        <Product preOrder={true} productName="Mini Console" price="$149" desc="Ideal for photo & video. Adaptable to any workflow." src={hoverImage ? console_care : console_care2} onMouseOver={() => (setHoverImage(!hoverImage), console.log(1))}/>
       </main>
     </div>
   )
