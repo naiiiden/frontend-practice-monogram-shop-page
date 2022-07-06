@@ -282,8 +282,10 @@ header .header--nav .header--nav--ul button .close {
 
 .hero--container .hero--text {
   position: absolute;
-  right: 0;
-  max-width: 25rem;
+  bottom: 7.5rem;
+  right: 5%;
+  width: 260px;
+  color: #1a2456;
 }
 
 .hero--container .hero--text h1 {
@@ -292,6 +294,12 @@ header .header--nav .header--nav--ul button .close {
   font-weight: 600;
   line-height: 1.2;
   margin-bottom: 1rem;
+}
+
+.hero--container .hero--text p {
+  font-size: 1.09375rem;
+  font-weight: 300;
+  line-height: 1.5;
 }
 
 @media screen and (min-width: 390px) {
