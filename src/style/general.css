@@ -277,4 +277,10 @@ header .header--nav .header--nav--ul button .close {
   background-size: cover;
   background-position: 50%;
 }
+
+@media screen and (min-width: 768px) {
+  .hero--container {
+    height: 675px;
+  }
+}
 /*# sourceMappingURL=general.css.map */
