@@ -53,3 +53,13 @@
         }
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .hero--container {
+        .hero--text {
+            bottom: 13.75rem;
+            right: 10%;
+            width: 425px;
+        }
+    }
+}
