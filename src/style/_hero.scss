@@ -38,5 +38,18 @@
 @media screen and (min-width: 768px) {
     .hero--container {
         height: 675px;
+
+        .hero--text {
+            bottom: 11.25rem;
+            right: 7.5%;
+
+            h1 {
+                font-size: 2.34375rem;
+            }
+
+            p {
+                font-size: 1.15625rem;
+            }
+        }
     }
 }

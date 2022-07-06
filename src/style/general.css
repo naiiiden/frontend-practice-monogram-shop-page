@@ -312,5 +312,15 @@ header .header--nav .header--nav--ul button .close {
   .hero--container {
     height: 675px;
   }
+  .hero--container .hero--text {
+    bottom: 11.25rem;
+    right: 7.5%;
+  }
+  .hero--container .hero--text h1 {
+    font-size: 2.34375rem;
+  }
+  .hero--container .hero--text p {
+    font-size: 1.15625rem;
+  }
 }
 /*# sourceMappingURL=general.css.map */
