@@ -23,6 +23,7 @@ header {
   padding: 7px;
   background: #1a2456;
   position: fixed;
+  z-index: 99;
   left: 0;
   right: 0;
   top: 7px;
@@ -276,6 +277,21 @@ header .header--nav .header--nav--ul button .close {
   background: url("../images/banner.png") no-repeat;
   background-size: cover;
   background-position: 50%;
+  position: relative;
+}
+
+.hero--container .hero--text {
+  position: absolute;
+  right: 0;
+  max-width: 25rem;
+}
+
+.hero--container .hero--text h1 {
+  letter-spacing: 4px;
+  font-size: 2.1875rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 768px) {

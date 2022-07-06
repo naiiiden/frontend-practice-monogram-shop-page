@@ -3,6 +3,22 @@
     background: url("../images/banner.png") no-repeat;
     background-size: cover;
     background-position: 50%;
+    position: relative;
+    // z-index: -1;
+
+    .hero--text {
+        position: absolute;
+        right: 0;
+        max-width: 25rem;
+
+        h1 {
+            letter-spacing: 4px;
+            font-size: 2.1875rem;
+            font-weight: 600;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+        }
+    }
 }
 
 @media screen and (min-width: 768px) {
