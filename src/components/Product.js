@@ -1,8 +1,8 @@
-const Product = ({ src, preOrder, productName, price, desc, onMouseEnter, onMouseLeave }) => {
+const Product = ({ src, preOrder, productName, price, desc, href, onMouseEnter, onMouseLeave }) => {
 
     return (
         <article style={{width: "30rem", display: "block"}}>
-            <a className="product--container" onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} style={{width: "30rem", display: "block"}}>
+            <a href={href} className="product--container" onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} style={{width: "30rem", display: "block"}}>
                 <div className="img--container" style={{position: "relative"}}>
                     <img src={src} alt=""/>
                     {preOrder ? <div className="pre-order" style={{position: "absolute", top: "0", right: "0"}}>PRE-ORDER</div> : ""}
