@@ -1,13 +1,22 @@
 import "./style/general.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Product from "./components/Product";
+
+import console_care from "./images/console_care.png";
+import console_care2 from "./images/console_care2.png";
+import { useState } from "react";
+
 
 const App = () => {
+  const [hoverImage, setHoverImage] = useState(true);
+
   return (
     <div>
       <Header/>
       <main>
         <Hero h1Text="A CONSOLE FOR EVERY WORKFLOW" pText="Discover the perfect console for yours."/>
+        <Product preOrder={true} src={hoverImage ? console_care : console_care2} onMouseOver={() => (setHoverImage(!hoverImage), console.log(1))}/>
       </main>
     </div>
   )
