@@ -357,4 +357,23 @@ article a {
     margin: auto;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .console--products {
+    padding: 2.8125rem 20px;
+    max-width: 720px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .console--products article {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 48%;
+  }
+}
 /*# sourceMappingURL=general.css.map */
