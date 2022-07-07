@@ -101,3 +101,22 @@ article {
         }
     }
 }
+
+@media screen and (min-width: 1024px) {
+    article {
+        a {
+            .product--desc--container {
+                .product--price--container {
+                    div {
+                        button {
+                            &:hover {
+                                cursor: pointer;
+                                background: #111839;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

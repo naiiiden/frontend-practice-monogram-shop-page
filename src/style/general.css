@@ -426,6 +426,13 @@ article a .product--desc--container p {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  article a .product--desc--container .product--price--container div button:hover {
+    cursor: pointer;
+    background: #111839;
+  }
+}
+
 .console--products {
   padding: 20px;
   display: -webkit-box;
