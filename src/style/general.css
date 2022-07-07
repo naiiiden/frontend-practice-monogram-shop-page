@@ -331,4 +331,23 @@ header .header--nav .header--nav--ul button .close {
     width: 425px;
   }
 }
+
+article {
+  display: block;
+  color: #1a2456;
+}
+
+article a {
+  display: block;
+}
+
+.console--products {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 20px;
+}
 /*# sourceMappingURL=general.css.map */
