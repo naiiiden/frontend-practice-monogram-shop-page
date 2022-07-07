@@ -468,4 +468,12 @@ article a .product--desc--container p {
     max-width: 960px;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .console--products {
+    gap: 15px;
+    padding: 2.8125rem 0;
+    max-width: 1160px;
+  }
+}
 /*# sourceMappingURL=general.css.map */
