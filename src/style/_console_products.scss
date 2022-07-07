@@ -25,3 +25,10 @@
         }
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .console--products {
+        padding: 2.8125rem 13px;
+        max-width: 960px;
+    }
+}
