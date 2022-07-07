@@ -69,3 +69,35 @@ article {
         }
     }
 }
+
+@media screen and (min-width: 768px) {
+    article {
+        a {
+            .img--container {
+                .pre-order {
+                    font-size: 78.125%;
+                }
+            }
+
+            .product--desc--container {
+                .product--price--container {
+                    h3 {
+                        font-size: 1.1725rem;
+                    }
+
+                    div {
+                        font-size: 1.05rem;
+
+                        button {
+                            font-size: .725rem;
+                        }
+                    }
+                }
+
+                p {
+                    font-size: .85rem;
+                }
+            }
+        }
+    }
+}
