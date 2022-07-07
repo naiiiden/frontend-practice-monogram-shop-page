@@ -4,5 +4,68 @@ article {
 
     a {
         display: block;
+        text-decoration: none;
+
+        .img--container {
+            position: relative;
+
+            .pre-order {
+                position: absolute;
+                top: 1rem;
+                right: 0;
+                background: $primary;
+                color: $white;
+                font-size: 75%;
+                font-weight: 600;
+                line-height: 1;
+                letter-spacing: 1px;
+                padding: 7px 14px;
+            }
+        }
+
+        .product--desc--container {
+            .product--price--container {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: .5rem;
+                
+                h3 {
+                    letter-spacing: 1.5px;
+                    text-transform: uppercase;
+                    font-size: 1.094rem;
+                    font-weight: 600;
+                    line-height: 1.2;
+                    color: $primary;
+                }
+
+                div {
+                    color: $primary;
+                    font-weight: 300;
+                    line-height: 1.5;
+                    font-size: .925rem;
+
+                    button {
+                        border: none;
+                        border-radius: 50px;
+                        background: $primary;
+                        color: $white;
+                        letter-spacing: 1px;
+                        font-size: .625rem;
+                        font-family: inherit;
+                        font-weight: 600;
+                        line-height: 1.5;
+                        padding: 0.375rem 1.25rem;
+                    }
+                }
+            }
+            
+            p {
+                color: $primary;
+                font-size: .8rem;
+                font-weight: 300;
+                line-height: 1.5;
+            }
+        }
     }
 }
