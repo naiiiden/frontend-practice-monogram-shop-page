@@ -19,6 +19,8 @@ img {
 }
 
 header {
+  -webkit-box-shadow: 1px 11px 35px rgba(0, 0, 0, 0.15);
+          box-shadow: 1px 11px 35px rgba(0, 0, 0, 0.15);
   margin: 0 7px 7px 7px;
   padding: 7px;
   background: #1a2456;

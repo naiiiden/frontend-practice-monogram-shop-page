@@ -32,10 +32,6 @@ const App = () => {
         <Hero h1Text="A CONSOLE FOR EVERY WORKFLOW" pText="Discover the perfect console for yours."/>
         <section className="console--products">
           {consoleElements}
-          {/* <Product href="https://monogramcc.com/shop/products/mini-console/" preOrder={true} productName="Mini Console" price={hoverImage ? "$149" : <button>SHOP NOW</button>} desc="Ideal for everyday shortcuts. Adaptable to any workflow." src={hoverImage ? mini_console : mini_console2} onMouseEnter={(e) => setHoverImage(!hoverImage)} onMouseLeave={() => setHoverImage(!hoverImage)}/>
-          <Product href="https://monogramcc.com/shop/products/audio-console/" preOrder={true} productName="Audio Console" price={hoverImage ? "$399" : <button>SHOP NOW</button>} desc="Ideal for music & audio. Adaptable to any workflow." src={hoverImage ? audio_console : audio_console2} onMouseEnter={() => setHoverImage(!hoverImage)} onMouseLeave={() => setHoverImage(!hoverImage)}/>
-          <Product href="https://monogramcc.com/shop/products/photo-console/" preOrder={true} productName="Photo Console" price={hoverImage ? "$499" : <button>SHOP NOW</button>} desc="Ideal for photo & video. Adaptable to any workflow." src={hoverImage ? photo_console : photo_console2} onMouseEnter={() => setHoverImage(!hoverImage)} onMouseLeave={() => setHoverImage(!hoverImage)}/>
-          <Product href="https://monogramcc.com/shop/products/video-console/" preOrder={true} productName="Video Console" price={hoverImage ? "$799" : <button>SHOP NOW</button>} desc="Ideal for Virtual Production & Film. Adaptable to any workflow." src={hoverImage ? video_console : video_console2} onMouseEnter={() => setHoverImage(!hoverImage)} onMouseLeave={() => setHoverImage(!hoverImage)}/> */}
         </section>
       </main>
     </div>

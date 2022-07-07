@@ -1,8 +1,8 @@
 export default [
     {
         id: 1,
-        img1: "mini_console",
-        img2: "mini_console2",
+        img1: "mini_console.png",
+        img2: "mini_console2.png",
         name: "Mini Console",
         description: "Ideal for everyday shortcuts. Adaptable to any workflow.",
         href: "https://monogramcc.com/shop/products/mini-console/",
