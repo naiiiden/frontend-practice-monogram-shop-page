@@ -490,4 +490,11 @@ article a .product--desc--container p {
     max-width: 1160px;
   }
 }
+
+.banner--container {
+  height: 315px;
+  background: url("../images/banner2.png") no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
 /*# sourceMappingURL=general.css.map */

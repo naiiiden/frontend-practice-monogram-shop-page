@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Product from "./components/Product";
 import Consoles from "./Consoles";
+import Banner from "./components/Banner";
 
 const App = () => {
 
@@ -18,6 +19,7 @@ const App = () => {
         <section className="console--products">
           {consoleElements}
         </section>
+        <Banner h2Text="CREATE YOUR OWN CONSOLE" pText="Add-on to make it perfect."/>
       </main>
     </div>
   )
