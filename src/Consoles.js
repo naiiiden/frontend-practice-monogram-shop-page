@@ -1,4 +1,4 @@
-export default [
+const Consoles = [
     {
         id: 1,
         img1: "mini_console.png",
@@ -44,3 +44,5 @@ export default [
 
     }
 ]
+
+export default Consoles;
