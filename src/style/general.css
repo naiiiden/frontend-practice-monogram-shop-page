@@ -523,6 +523,9 @@ article a .product--desc--container p {
     height: 337.5px;
     background-size: 100% 100%;
   }
+  .banner--container .banner--text p {
+    font-size: 1.172rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
