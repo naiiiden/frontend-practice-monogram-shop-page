@@ -22,7 +22,7 @@ const App = () => {
   const [hoverImage, setHoverImage] = useState(true);
 
   const consoleElements = Consoles.map(console => {
-    return <Product key={console.id} href={console.href} preOrder={console.preOrder} productName={console.name} price={hoverImage ? console.price : <button>SHOP NOW</button>} desc={console.description} src={hoverImage ? console.img1 : console.img2} onMouseEnter={() => setHoverImage(!hoverImage)} onMouseLeave={() => setHoverImage(!hoverImage)}/>
+    return <Product key={console.id} href={console.href} preOrder={console.preOrder} productName={console.name} price={hoverImage ? console.price : <button>SHOP NOW</button>} desc={console.description} src={hoverImage ? console.img1 : console.img2} onMouseEnter={() => setHoverImage(false)} onMouseLeave={() => setHoverImage(true)}/>
   })
 
   return (
