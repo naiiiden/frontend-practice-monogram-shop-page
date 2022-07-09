@@ -680,7 +680,6 @@ article a .product--desc--container p {
   }
   .addons--products article img {
     width: 100%;
-    height: 232px;
   }
   .addons--products article:nth-last-child(1) {
     margin-right: unset;
