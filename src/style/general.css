@@ -582,4 +582,25 @@ article a .product--desc--container p {
     max-width: 960px;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .addons--products {
+    gap: 15px;
+    padding: 2.8125rem 0;
+    max-width: 1160px;
+  }
+  .addons--products article {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 32.4715%;
+  }
+  .addons--products article img {
+    width: 100%;
+    height: 232px;
+  }
+  .addons--products article:nth-last-child(1) {
+    margin-right: unset;
+  }
+}
 /*# sourceMappingURL=general.css.map */
