@@ -1,8 +1,8 @@
 const Addons = [
     {
         id: 1,
-        img1: "",
-        img2: "",
+        img1: require("../src/images/module_core.png"),
+        img2: require("../src/images/module_core2.png"),
         name: "Monogram Core",
         href: "https://monogramcc.com/shop/products/monogram-core/",
         price: "$149",
@@ -10,8 +10,8 @@ const Addons = [
     },
     {
         id: 2,
-        img1: "",
-        img2: "",
+        img1: require("../src/images/module_orbiter.png"),
+        img2: require("../src/images/module_orbiter2.png"),
         name: "Orbiter Module",
         href: "https://monogramcc.com/shop/products/orbiter-module/",
         price: "$149",
@@ -19,8 +19,8 @@ const Addons = [
     },
     {
         id: 3,
-        img1: "",
-        img2: "",
+        img1: require("../src/images/dial_module2.png"),
+        img2: require("../src/images/dial_module.png"),
         name: "Dial Module",
         href: "https://monogramcc.com/shop/products/dial-module/",
         price: "$99",
@@ -28,8 +28,8 @@ const Addons = [
     },
     {
         id: 4,
-        img1: "",
-        img2: "",
+        img1: require("../src/images/silder_module.png"),
+        img2: require("../src/images/slider_module2.png"),
         name: "Slider Module",
         href: "https://monogramcc.com/shop/products/slider-module/",
         price: "$149",
@@ -37,8 +37,8 @@ const Addons = [
     },
     {
         id: 5,
-        img1: "",
-        img2: "",
+        img1: require("../src/images/keys_module2.png"),
+        img2: require("../src/images/keys_module.png"),
         name: "Essential Keys Module",
         href: "https://monogramcc.com/shop/products/essential-keys-module/",
         price: "$99",
@@ -46,8 +46,8 @@ const Addons = [
     },
     {
         id: 6,
-        img1: "",
-        img2: "",
+        img1: require("../src/images/upgrade_audio.png"),
+        img2: require("../src/images/upgrade_audio.png"),
         name: "Console Upgrade: Audio",
         href: "https://monogramcc.com/shop/products/mini-console-upgrade-midi/",
         price: "$29",
@@ -55,8 +55,8 @@ const Addons = [
     },
     {
         id: 7,
-        img1: "",
-        img2: "",
+        img1: require("../src/images/upgrade_photo.png"),
+        img2: require("../src/images/upgrade_photo.png"),
         name: "Console Upgrade: Photo",
         href: "https://monogramcc.com/shop/products/mini-console-upgrade-photo/",
         price: "$39",
@@ -64,8 +64,8 @@ const Addons = [
     },
     {
         id: 8,
-        img1: "",
-        img2: "",
+        img1: require("../src/images/upgrade_video.png"),
+        img2: require("../src/images/upgrade_video.png"),
         name: "Console Upgrade: Video",
         href: "https://monogramcc.com/shop/products/mini-console-upgrade-video/",
         price: "$69",
@@ -73,8 +73,8 @@ const Addons = [
     },
     {
         id: 9,
-        img1: "",
-        img2: "",
+        img1: require("../src/images/console_care2.png"),
+        img2: require("../src/images/console_care.png"),
         name: "Monogram Care",
         href: "https://monogramcc.com/shop/products/dial-module/",
         price: "$19 - $129",
