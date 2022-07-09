@@ -315,6 +315,16 @@ header .header--nav .header--nav--ul button .close {
   left: 0;
   right: 0;
   margin: auto;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.hero--container .arrow:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 @media screen and (min-width: 390px) {
