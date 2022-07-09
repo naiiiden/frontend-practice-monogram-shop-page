@@ -552,6 +552,10 @@ article a .product--desc--container p {
     max-width: 540px;
     margin: auto;
   }
+  .addons--products article img {
+    width: 100vw;
+    height: 333.33px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -571,6 +575,10 @@ article a .product--desc--container p {
             flex: 0 0 50%;
     max-width: 48%;
   }
+  .addons--products article img {
+    width: 100%;
+    height: 217.59px;
+  }
   .addons--products article:nth-last-child(1) {
     margin-right: auto;
   }
@@ -580,6 +588,10 @@ article a .product--desc--container p {
   .addons--products {
     padding: 2.8125rem 13px;
     max-width: 960px;
+  }
+  .addons--products article img {
+    width: 100%;
+    height: 298.88px;
   }
 }
 

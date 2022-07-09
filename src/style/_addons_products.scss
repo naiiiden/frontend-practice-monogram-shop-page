@@ -9,6 +9,13 @@
     .addons--products {
         max-width: 540px;
         margin: auto;
+
+        article {
+            img {
+                width: 100vw;
+                height: 333.33px;
+            }
+        }
     }
 }
 
@@ -23,6 +30,11 @@
             flex: 0 0 50%;
             max-width: 48%;
 
+            img {
+                width: 100%;
+                height: 217.59px;
+            }
+
             &:nth-last-child(1) {
                 margin-right: auto;
             }
@@ -34,6 +46,13 @@
     .addons--products {
         padding: 2.8125rem 13px;
         max-width: 960px;
+
+        article {
+            img {
+                width: 100%;
+                height: 298.88px;
+            }
+        }
     }
 }
 
