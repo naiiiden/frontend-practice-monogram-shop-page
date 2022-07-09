@@ -20,8 +20,8 @@ const App = () => {
     <div>
       <Header/>
       <main>
-        <Hero h1Text="A CONSOLE FOR EVERY WORKFLOW" pText="Discover the perfect console for yours."/>
-        <section className="console--products">
+        <Hero h1Text="A CONSOLE FOR EVERY WORKFLOW" pText="Discover the perfect console for yours." href="#products"/>
+        <section className="console--products" id="products">
           {consoleElements}
         </section>
         <Banner h2Text="CREATE YOUR OWN CONSOLE" pText="Add-on to make it perfect."/>
