@@ -305,6 +305,18 @@ header .header--nav .header--nav--ul button .close {
   line-height: 1.5;
 }
 
+.hero--container .arrow {
+  width: 100%;
+  -webkit-filter: drop-shadow(0 1px 0.1em rgba(0, 0, 0, 0.5));
+          filter: drop-shadow(0 1px 0.1em rgba(0, 0, 0, 0.5));
+  fill: #fff;
+  position: absolute;
+  bottom: 2rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
 @media screen and (min-width: 390px) {
   .hero--container {
     height: 530px;
