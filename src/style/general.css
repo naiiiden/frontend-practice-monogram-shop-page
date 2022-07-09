@@ -546,4 +546,11 @@ article a .product--desc--container p {
       flex-wrap: wrap;
   gap: 20px;
 }
+
+@media screen and (min-width: 576px) {
+  .addons--products {
+    max-width: 540px;
+    margin: auto;
+  }
+}
 /*# sourceMappingURL=general.css.map */
