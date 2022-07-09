@@ -1,8 +1,8 @@
 const Consoles = [
     {
         id: 1,
-        img1: require("./images/mini_console.png"),
-        img2: require("./images/mini_console2.png"),
+        img1: require("../src/images/mini_console.png"),
+        img2: require("../src/images/mini_console2.png"),
         name: "Mini Console",
         description: "Ideal for everyday shortcuts. Adaptable to any workflow.",
         href: "https://monogramcc.com/shop/products/mini-console/",
@@ -12,8 +12,8 @@ const Consoles = [
     },
     {
         id: 2,
-        img1: require("./images/audio_console.png"),
-        img2: require("./images/console_traveler2.png"),
+        img1: require("../src/images/audio_console.png"),
+        img2: require("../src/images/console_traveler2.png"),
         name: "Audio Console",
         description: "Ideal for music & audio. Adaptable to any workflow.",
         href: "https://monogramcc.com/shop/products/audio-console/",
@@ -23,8 +23,8 @@ const Consoles = [
     },
     {
         id: 3,
-        img1: require("./images/photo_console.png"),
-        img2: require("./images/photo_console2.png"),
+        img1: require("../src/images/photo_console.png"),
+        img2: require("../src/images/photo_console2.png"),
         name: "Photo Console",
         description: "Ideal for photo & video. Adaptable to any workflow.",
         href: "https://monogramcc.com/shop/products/photo-console/",
@@ -34,14 +34,13 @@ const Consoles = [
     },
     {
         id: 4,
-        img1: require("./images/video_console.png"),
-        img2: require("./images/video_console2.png"),
+        img1: require("../src/images/video_console.png"),
+        img2: require("../src/images/video_console2.png"),
         name: "Video Console",
         description: "Ideal for Virtual Production & Film. Adaptable to any workflow.",
         href: "https://monogramcc.com/shop/products/video-console/",
         price: "$799",
         preOrder: true,
-
     }
 ]
 
