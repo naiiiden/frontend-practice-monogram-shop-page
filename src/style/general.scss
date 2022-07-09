@@ -4,7 +4,7 @@ $blue: #1a2456;
 $orange: #ff501c;
 $black: #080b1b;
 $carrot: #ff8b68;
-$gray: #f0efed;
+$gray-bg: #f0efed;
 $blue2: #1a2456;
 $indigo: #1a2456;
 $purple: #1a2456;
@@ -42,6 +42,7 @@ body {
     width: 100%;
     min-height: 100vh;
     font-family: prompt, sans-serif;
+    background-color: $gray-bg;
 }
 
 img {
