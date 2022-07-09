@@ -25,7 +25,7 @@ const App = () => {
           {consoleElements}
         </section>
         <Banner h2Text="CREATE YOUR OWN CONSOLE" pText="Add-on to make it perfect."/>
-        <section className="addons-products">
+        <section className="addons--products">
           {addonElements}
         </section>
       </main>
