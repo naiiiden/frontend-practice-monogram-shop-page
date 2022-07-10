@@ -1,4 +1,7 @@
 import { ReactComponent as Instagram } from "../images/instagram.svg";
+import { ReactComponent as Twitter } from "../images/twitter.svg";
+import { ReactComponent as Facebook } from "../images/facebook.svg";
+import { ReactComponent as Youtube } from "../images/youtube.svg";
 
 const Footer = () => {
     return (
@@ -47,10 +50,10 @@ const Footer = () => {
                         </form>
                     </li>
                     <ul className="footer--socials">
-                        <li><a href="#"><Instagram/></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
+                        <li><a href="#"><Instagram className="social"/></a></li>
+                        <li><a href="#"><Twitter className="social"/></a></li>
+                        <li><a href="#"><Facebook className="social"/></a></li>
+                        <li><a href="#"><Youtube className="social"/></a></li>
                     </ul>
                     <li><p>© Monogram 2022</p></li>
                 </ul>
