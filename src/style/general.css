@@ -325,6 +325,14 @@ header .header--nav .header--nav--ul button .close {
   margin-right: .5rem;
 }
 
+@media screen and (min-width: 375px) {
+  .cart--modal {
+    -webkit-box-shadow: 50vw 0 50rem 100vw rgba(0, 0, 0, 0.75);
+            box-shadow: 50vw 0 50rem 100vw rgba(0, 0, 0, 0.75);
+    width: 350px;
+  }
+}
+
 .hero--container {
   height: 556px;
   background: url("../images/banner.png") no-repeat;

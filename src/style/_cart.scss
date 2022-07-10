@@ -30,3 +30,10 @@
         }
     }
 }
+
+@media screen and (min-width: 375px) {
+    .cart--modal {
+        box-shadow: 50vw 0 50rem 100vw rgba(0, 0, 0, .75);
+        width: 350px;
+    }
+}
