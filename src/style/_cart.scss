@@ -46,3 +46,13 @@
         width: 350px;
     }
 }
+
+@media screen and (min-width: 768px) {
+    .cart--modal {
+        .arrow--container {
+            button {
+                font-size: .85rem;
+            }
+        }
+    }
+}

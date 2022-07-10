@@ -350,6 +350,12 @@ header .header--nav .header--nav--ul button .close {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .cart--modal .arrow--container button {
+    font-size: .85rem;
+  }
+}
+
 .hero--container {
   height: 556px;
   background: url("../images/banner.png") no-repeat;

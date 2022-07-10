@@ -3,9 +3,9 @@ import { ReactComponent as Menu} from "../images/menu.svg";
 import { ReactComponent as Cart } from "../images/cart.svg";
 import { ReactComponent as Close } from "../images/close.svg";
 import { useState, useEffect } from "react";
-import Cart_modal from "./Cart";
+import CartModal from "./Cart";
 
-const Header = ({ }) => {
+const Header = () => {
     const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1024);
     const [openMenu, setOpenMenu] = useState(false); 
     const [openDesktopMenu, setOpenDesktopMenu] = useState(false);
@@ -30,7 +30,7 @@ const Header = ({ }) => {
                     <Cart className="cart--icon"/>
                 </button>
             </div>
-            <Cart_modal className={`cart--modal ${openCart ? "show" : ""}`} onClick={() => setOpenCart(false)}/>
+            <CartModal className={`cart--modal ${openCart ? "show" : ""}`} onClick={() => setOpenCart(false)}/>
             <nav className="header--nav">
                 <ul className={`header--nav--ul ${openMenu ? "show" : ""}`}>
                     <li className="logo--close--container">
@@ -60,7 +60,7 @@ const Header = ({ }) => {
                     <Cart className="cart--icon"/>
                 </button>
             </div>
-            <Cart_modal className={`cart--modal ${openCart ? "show" : ""}`} onClick={() => setOpenCart(false)}/>
+            <CartModal className={`cart--modal ${openCart ? "show" : ""}`} onClick={() => setOpenCart(false)}/>
             <nav className="header--nav">
                 <ul className="header--nav--ul">
                     <li><a href="https://monogramcc.com/how-it-works/">HOW IT WORKS</a></li>
