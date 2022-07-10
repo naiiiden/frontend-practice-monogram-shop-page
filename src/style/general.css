@@ -185,6 +185,9 @@ header .header--nav .header--nav--ul button .close {
 }
 
 @media screen and (min-width: 1024px) {
+  header .monogram:hover {
+    fill: #e28f74;
+  }
   header .header--buttons--container {
     -webkit-box-ordinal-group: 4;
         -ms-flex-order: 3;

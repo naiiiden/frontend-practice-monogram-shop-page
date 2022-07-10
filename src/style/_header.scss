@@ -145,6 +145,10 @@ header {
 
 @media screen and (min-width: 1024px) {
     header {
+        .monogram:hover {
+            fill: #e28f74;
+        }
+
         .header--buttons--container {
             order: 3;
             margin-left: 7.5px;
