@@ -290,26 +290,30 @@ header .header--nav .header--nav--ul button .close {
 
 .cart--modal {
   position: fixed;
-  z-index: 99;
-  top: 0;
   right: 0;
-  bottom: 0;
-  height: 100vh;
+  -webkit-transform: translate(200%);
+          transform: translate(200%);
   width: 100%;
-  background: #fff;
-  -webkit-transform: translate(100%);
-          transform: translate(100%);
-  -webkit-transition: .3;
-  transition: .3;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
 }
 
 .cart--modal.show {
+  background: #fff;
+  z-index: 99;
+  top: 0;
+  bottom: 0;
   -webkit-box-shadow: 0vw 0 100rem 100vw rgba(0, 0, 0, 0.75);
           box-shadow: 0vw 0 100rem 100vw rgba(0, 0, 0, 0.75);
   -webkit-transform: translate(0);
           transform: translate(0);
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: -webkit-transform .4s;
+  transition: -webkit-transform .4s;
+  transition: transform .4s;
+  transition: transform .4s, -webkit-transform .4s;
+  height: 100vh;
 }
 
 .cart--modal .arrow--container {

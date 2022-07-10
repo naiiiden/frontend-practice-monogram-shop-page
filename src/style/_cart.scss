@@ -1,19 +1,19 @@
 .cart--modal {
     position: fixed;
-    z-index: 99;
-    top: 0;
     right: 0;
-    bottom: 0;
-    height: 100vh;
+    transform: translate(200%);
     width: 100%;
-    background: $white;
-    transform: translate(100%);
-    transition: .3;
-
+    transition: transform .3s;
+    
     &.show {
+        background: $white;
+        z-index: 99;
+        top: 0;
+        bottom: 0;
         box-shadow: 0vw 0 100rem 100vw rgba(0, 0, 0, .75);
         transform: translate(0);
-        transition: .4s;
+        transition: transform .4s;
+        height: 100vh;
     }
 
     .arrow--container {
