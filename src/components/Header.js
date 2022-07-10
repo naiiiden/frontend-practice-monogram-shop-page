@@ -16,12 +16,10 @@ const Header = () => {
         return () => window.removeEventListener("resize", updateMedia);
     });
 
-    // window.addEventListener("click", () => setOpenMenu(!openMenu));
-
     return (
         <>
         {!isDesktop ? (<header>
-            <Monogram className="monogram"/>
+            <a href="https://monogramcc.com/" className="logo--link"><Monogram className="monogram"/></a>
             <div className="header--buttons--container">
                 <button aria-label="Open menu" onClick={() => setOpenMenu(true)}>
                     <Menu className="menu--icon"/>
@@ -53,7 +51,7 @@ const Header = () => {
             </nav>
         </header>) : (
             <header>
-            <Monogram className="monogram"/>
+            <a href="https://monogramcc.com/" className="logo--link"><Monogram className="monogram"/></a>
             <div className="header--buttons--container">
                 <button aria-label="Go to checkout">
                     <Cart className="cart--icon"/>

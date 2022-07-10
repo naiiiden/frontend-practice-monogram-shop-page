@@ -13,6 +13,11 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
 
+    .logo--link {
+        display: grid;
+        place-content: center;
+    }
+
     .monogram {
         fill: $secondary
     }

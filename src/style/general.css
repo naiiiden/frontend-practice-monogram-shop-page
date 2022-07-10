@@ -47,6 +47,12 @@ header {
       flex-wrap: wrap;
 }
 
+header .logo--link {
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+
 header .monogram {
   fill: #efc2b3;
 }
