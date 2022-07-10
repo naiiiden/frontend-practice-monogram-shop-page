@@ -288,6 +288,14 @@ header .header--nav .header--nav--ul button .close {
   }
 }
 
+.cart--modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 100%;
+}
+
 .hero--container {
   height: 556px;
   background: url("../images/banner.png") no-repeat;

@@ -6,7 +6,6 @@ import Consoles from "./Consoles";
 import Banner from "./components/Banner";
 import Addons from "./Addons";
 import Footer from "./components/Footer";
-import Cart from "./components/Cart";
 
 const App = () => {
 
@@ -32,7 +31,6 @@ const App = () => {
         </section>
       </main>
       <Footer/>
-      <Cart/>
     </div>
   )
 }

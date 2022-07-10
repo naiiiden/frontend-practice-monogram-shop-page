@@ -3,11 +3,13 @@ import { ReactComponent as Menu} from "../images/menu.svg";
 import { ReactComponent as Cart } from "../images/cart.svg";
 import { ReactComponent as Close } from "../images/close.svg";
 import { useState, useEffect } from "react";
+import Cart_modal from "./Cart";
 
-const Header = () => {
+const Header = ({ }) => {
     const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1024);
     const [openMenu, setOpenMenu] = useState(false); 
     const [openDesktopMenu, setOpenDesktopMenu] = useState(false);
+    const [openCart, setOpenCart] = useState(false);
 
     const updateMedia = () => setIsDesktop(window.innerWidth >= 1024);
 
@@ -24,10 +26,11 @@ const Header = () => {
                 <button aria-label="Open menu" onClick={() => setOpenMenu(true)}>
                     <Menu className="menu--icon"/>
                 </button>
-                <button aria-label="Go to checkout">
+                <button aria-label="Go to checkout" onClick={() => setOpenCart(true)}>
                     <Cart className="cart--icon"/>
                 </button>
             </div>
+            {openCart ? <Cart_modal onClick={() => setOpenCart(false)}/> : ""}
             <nav className="header--nav">
                 <ul className={`header--nav--ul ${openMenu ? "show" : ""}`}>
                     <li className="logo--close--container">
@@ -53,10 +56,11 @@ const Header = () => {
             <header>
             <a href="https://monogramcc.com/" className="logo--link"><Monogram className="monogram"/></a>
             <div className="header--buttons--container">
-                <button aria-label="Go to checkout">
+                <button aria-label="Go to checkout" onClick={() => setOpenCart(true)}>
                     <Cart className="cart--icon"/>
                 </button>
             </div>
+            {openCart ? <Cart_modal onClick={() => setOpenCart(false)}/> : ""}
             <nav className="header--nav">
                 <ul className="header--nav--ul">
                     <li><a href="https://monogramcc.com/how-it-works/">HOW IT WORKS</a></li>
