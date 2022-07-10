@@ -290,6 +290,8 @@ header .header--nav .header--nav--ul button .close {
 
 .cart--modal {
   position: fixed;
+  top: 0;
+  bottom: 0;
   right: 0;
   -webkit-transform: translate(200%);
           transform: translate(200%);
