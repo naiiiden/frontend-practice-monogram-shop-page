@@ -1,0 +1,101 @@
+.footer {
+    background: $primary;
+    padding: 40px 60px 40px 20px;
+
+    .footer--nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px;
+        
+        .footer--nav--ul {
+            list-style-type: none;
+
+            h4, address, a, p {
+                color: $light;
+            }
+
+            h4 {
+                font-weight: 600;
+                font-size: .675rem;
+                letter-spacing: 1px;
+                margin-bottom: .875rem;
+            }
+
+            address {
+                font-size: .7875rem;
+                font-style: normal;
+            }
+
+            a {
+                text-decoration: none;
+                font-size: .7875rem;
+                font-weight: 300;
+            }
+
+            li {
+                margin-bottom: .375rem;
+            }
+            
+            p {
+                font-weight: 300;
+                font-size: .7875rem;
+                line-height: 1.5;
+            }
+
+            form {
+                margin: .375rem 0;
+                display: inline-flex;
+                align-items: center;
+
+                input[type="email"] {
+                    margin-right: .4375rem;
+                    height: 27px;
+                    border: 1.5px solid $light;
+                    background: transparent;
+                    padding-left: .5rem;
+
+                    &::placeholder {
+                        font-family: prompt, sans-serif;
+                    }
+                }
+
+                input[type="submit"] {
+                    border: none;
+                    background: $light;
+                    color: #212529;
+                    height: 27px;
+                    letter-spacing: 1px;
+                    font-size: .75rem;
+                    font-weight: 600;
+                    line-height: 1.5;
+                    padding: 0 .75rem;
+                    border-radius: 50px;
+                }
+            }
+
+            .footer--socials {
+                list-style-type: none;
+                display: flex;
+                margin: .5rem 0;
+
+
+                a {
+                    width: 27px; 
+                    height: 27px;
+                    background: $light;
+                    border-radius: 50%;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    margin-right: .375rem;
+
+                    .social {
+                        fill: $primary;
+                    }
+                }
+            }
+        }
+    }
+}
