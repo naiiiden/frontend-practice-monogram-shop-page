@@ -831,4 +831,25 @@ article a .product--desc--container p {
     width: 720px;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    padding: 40px 0;
+  }
+  .footer .footer--nav {
+    padding: 0 13px;
+    width: 960px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: unset;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .footer .footer--nav .footer--nav--ul {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 16.25%;
+            flex: 0 0 16.25%;
+  }
+}
 /*# sourceMappingURL=general.css.map */

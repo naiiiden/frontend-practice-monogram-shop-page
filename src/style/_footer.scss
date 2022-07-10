@@ -112,3 +112,21 @@
         }
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .footer {
+        padding: 40px 0;
+        
+        .footer--nav {
+            padding: 0 13px;
+            width: 960px;
+            justify-content: space-between;
+            gap: unset;
+            flex-wrap: nowrap;
+
+            .footer--nav--ul {
+                flex: 0 0 16.25%;
+            }
+        }
+    }
+}
