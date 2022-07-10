@@ -852,4 +852,11 @@ article a .product--desc--container p {
             flex: 0 0 16.25%;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .footer .footer--nav {
+    padding: unset;
+    width: 1160px;
+  }
+}
 /*# sourceMappingURL=general.css.map */

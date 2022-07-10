@@ -130,3 +130,12 @@
         }
     }
 }
+
+@media screen and (min-width: 1280px) {
+    .footer {
+        .footer--nav {
+            padding: unset;
+            width: 1160px;
+        }
+    }
+}
