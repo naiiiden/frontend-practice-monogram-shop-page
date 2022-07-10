@@ -84,8 +84,8 @@ header .header--nav {
 
 header .header--nav .header--nav--ul {
   list-style-type: none;
-  -webkit-transform: translate(-100%);
-          transform: translate(-100%);
+  -webkit-transform: translate(-120%);
+          transform: translate(-120%);
   -webkit-transition: .3s;
   transition: .3s;
   height: 100%;
