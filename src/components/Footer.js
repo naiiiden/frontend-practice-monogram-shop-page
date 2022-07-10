@@ -20,25 +20,25 @@ const Footer = () => {
                 </ul>
                 <ul className="footer--nav--ul">
                     <li><h4>QUICK LINKS</h4></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">How it Works</a></li>
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">Download</a></li>
+                    <li><a href="https://monogramcc.com/">Home</a></li>
+                    <li><a href="https://monogramcc.com/how-it-works/">How it Works</a></li>
+                    <li><a href="https://monogramcc.com/shop/">Shop</a></li>
+                    <li><a href="https://monogramcc.com/download/">Download</a></li>
                 </ul>
                 <ul className="footer--nav--ul">
                     <li><h4>HELP</h4></li>
-                    <li><a href="#">FAQs</a></li>
-                    <li><a href="#">Support Center</a></li>
-                    <li><a href="#">Shipping and Sales</a></li>
+                    <li><a href="https://support.monogramcc.com/hc/en-us/sections/203555177-Frequently-Asked-Questions">FAQs</a></li>
+                    <li><a href="https://support.monogramcc.com/">Support Center</a></li>
+                    <li><a href="https://monogramcc.com/shipping-and-sales/">Shipping and Sales</a></li>
                 </ul>
                 <ul className="footer--nav--ul">
                     <li><h4>INFORMATION</h4></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Work with us</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms of Use</a></li>
-                    <li><a href="#">Terms of Sale</a></li>
-                    <li><a href="#">Press Kit</a></li>
+                    <li><a href="https://monogramcc.com/about/">About Us</a></li>
+                    <li><a href="https://monogramcc.com/about/#jobs">Work with us</a></li>
+                    <li><a href="https://monogramcc.com/privacy/">Privacy Policy</a></li>
+                    <li><a href="https://monogramcc.com/site-terms/">Terms of Use</a></li>
+                    <li><a href="https://monogramcc.com/sales-terms/">Terms of Sale</a></li>
+                    <li><a href="https://bit.ly/MonogramPress2021">Press Kit</a></li>
                 </ul>
                 <ul className="footer--nav--ul">
                     <li><h4>SUBSCRIBE TO MONOGRAM</h4></li>
@@ -50,10 +50,10 @@ const Footer = () => {
                         </form>
                     </li>
                     <ul className="footer--socials">
-                        <li><a href="#"><Instagram className="social"/></a></li>
-                        <li><a href="#"><Twitter className="social"/></a></li>
-                        <li><a href="#"><Facebook className="social"/></a></li>
-                        <li><a href="#"><Youtube className="social"/></a></li>
+                        <li><a href="https://instagram.com/monogramcc"><Instagram className="social"/></a></li>
+                        <li><a href="https://twitter.com/monogramcc"><Twitter className="social"/></a></li>
+                        <li><a href="https://www.facebook.com/monogramcc"><Facebook className="social"/></a></li>
+                        <li><a href="https://www.youtube.com/user/paletteUI"><Youtube className="social"/></a></li>
                     </ul>
                     <li><p>© Monogram 2022</p></li>
                 </ul>
