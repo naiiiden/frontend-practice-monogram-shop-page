@@ -815,4 +815,20 @@ article a .product--desc--container p {
 .footer .footer--nav .footer--nav--ul .footer--socials a .social {
   fill: #1a2456;
 }
+
+@media screen and (min-width: 768px) {
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer .footer--nav {
+    margin: auto;
+    padding: 0 40px;
+    width: 720px;
+  }
+}
 /*# sourceMappingURL=general.css.map */
