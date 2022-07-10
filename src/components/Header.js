@@ -30,7 +30,7 @@ const Header = ({ }) => {
                     <Cart className="cart--icon"/>
                 </button>
             </div>
-            {openCart ? <Cart_modal onClick={() => setOpenCart(false)}/> : ""}
+            <Cart_modal className={`cart--modal ${openCart ? "show" : ""}`} onClick={() => setOpenCart(false)}/>
             <nav className="header--nav">
                 <ul className={`header--nav--ul ${openMenu ? "show" : ""}`}>
                     <li className="logo--close--container">
@@ -60,7 +60,7 @@ const Header = ({ }) => {
                     <Cart className="cart--icon"/>
                 </button>
             </div>
-            {openCart ? <Cart_modal onClick={() => setOpenCart(false)}/> : ""}
+            <Cart_modal className={`cart--modal ${openCart ? "show" : ""}`} onClick={() => setOpenCart(false)}/>
             <nav className="header--nav">
                 <ul className="header--nav--ul">
                     <li><a href="https://monogramcc.com/how-it-works/">HOW IT WORKS</a></li>
