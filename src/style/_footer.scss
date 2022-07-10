@@ -132,6 +132,11 @@
 
             .footer--nav--ul {
                 flex: 0 0 16.25%;
+
+                a:hover {
+                    color: #e28f74;
+                    text-decoration: underline;
+                }
             }
         }
     }

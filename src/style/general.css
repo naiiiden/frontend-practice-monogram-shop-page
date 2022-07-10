@@ -854,6 +854,10 @@ article a .product--desc--container p {
         -ms-flex: 0 0 16.25%;
             flex: 0 0 16.25%;
   }
+  .footer .footer--nav .footer--nav--ul a:hover {
+    color: #e28f74;
+    text-decoration: underline;
+  }
 }
 
 @media screen and (min-width: 1280px) {
