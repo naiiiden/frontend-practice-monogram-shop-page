@@ -8,7 +8,8 @@
         "_product.scss",
         "_console_products.scss",
         "_banner.scss",
-        "_addons_products.scss"
+        "_addons_products.scss",
+        "_footer.scss"
     ],
     "names": [],
     "file": "general.css"

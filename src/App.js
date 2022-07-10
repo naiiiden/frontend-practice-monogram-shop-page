@@ -5,6 +5,7 @@ import Product from "./components/Product";
 import Consoles from "./Consoles";
 import Banner from "./components/Banner";
 import Addons from "./Addons";
+import Footer from "./components/Footer";
 
 const App = () => {
 
@@ -29,6 +30,7 @@ const App = () => {
           {addonElements}
         </section>
       </main>
+      <Footer/>
     </div>
   )
 }
