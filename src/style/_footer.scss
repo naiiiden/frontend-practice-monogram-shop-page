@@ -109,6 +109,12 @@
             margin: auto;
             padding: 0 40px;
             width: 720px;
+
+            .footer--nav--ul {
+                address, a, p {
+                    font-size: .85rem;
+                }
+            }
         }
     }
 }
