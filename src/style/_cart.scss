@@ -70,6 +70,33 @@
             }
         }
     }
+
+    .guarantee--container {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+
+        img {
+            width: 84px;
+            height: 79.7px;
+        }
+
+        h4 {
+            font-size: .875rem;
+            font-weight: 600;
+            color: $primary;
+            letter-spacing: 1.5px;
+            line-height: 1.2;
+            margin-bottom: 7px;
+        }
+
+        p {
+            color: $primary;
+            font-size: .6125rem;
+            font-weight: 300;
+            line-height: 1.5;
+        }
+    }
 }
 
 @media screen and (min-width: 375px) {
