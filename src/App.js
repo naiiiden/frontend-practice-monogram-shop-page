@@ -14,7 +14,7 @@ const App = () => {
   })
 
   const addonElements = Addons.map(addon => {
-    return <Product key={addon.id} href={addon.id} preOrder={addon.preOrder} productName={addon.name} price={addon.price} src1={addon.img1} src2={addon.img2}/>
+    return <Product key={addon.id} href={addon.href} preOrder={addon.preOrder} productName={addon.name} price={addon.price} src1={addon.img1} src2={addon.img2}/>
   })
 
   return (
