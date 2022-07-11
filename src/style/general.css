@@ -290,6 +290,7 @@ header .header--nav .header--nav--ul button .close {
 }
 
 .cart--modal {
+  overflow: auto;
   position: fixed;
   top: 0;
   bottom: 0;
