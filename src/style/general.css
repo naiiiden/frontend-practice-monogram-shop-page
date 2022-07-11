@@ -348,6 +348,34 @@ header .header--nav .header--nav--ul button .close {
   margin-right: .5rem;
 }
 
+.cart--modal .items--container {
+  padding: .875rem;
+}
+
+.cart--modal .empty--cart--text {
+  text-align: center;
+}
+
+.cart--modal .empty--cart--text h3 {
+  margin: 52px 0 14px 0;
+  font-size: 1.095rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: #1a2456;
+}
+
+.cart--modal .empty--cart--text p {
+  margin-bottom: 42px;
+  font-size: .875rem;
+  color: #6c757d;
+  line-height: 1.5;
+}
+
+.cart--modal .empty--cart--text p a {
+  color: #ff7952;
+  text-decoration: none;
+}
+
 @media screen and (min-width: 375px) {
   .cart--modal {
     width: 350px;
