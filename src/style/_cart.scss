@@ -7,6 +7,9 @@
     transform: translate(200%);
     width: 100%;
     transition: transform .3s;
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-between;
     
     &.show {
         background: $white;
@@ -45,6 +48,10 @@
 
     .items--container {
         padding: .875rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
     }
 
     .empty--cart--text {
@@ -99,10 +106,13 @@
     }
 
     .empty--space {
-        height: 29.5vh;
+        margin-top: 14px;
+        flex-grow: 1;
     }
 
     .payments--container {
+        margin-top: auto;
+
         p {
             text-align: center;
             font-size: .735rem;
@@ -116,6 +126,12 @@
             justify-content: center;
             gap: 6px;
         }
+    }
+
+    .checkout--container {
+        padding: 1.5rem .875rem;
+        background: $primary;
+        margin-top: auto;
     }
 }
 
