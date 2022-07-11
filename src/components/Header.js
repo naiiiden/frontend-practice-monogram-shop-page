@@ -11,6 +11,8 @@ const Header = () => {
     const [openDesktopMenu, setOpenDesktopMenu] = useState(false);
     const [openCart, setOpenCart] = useState(false);
 
+    openCart || openMenu ? document.body.style.overflow = "hidden" : document.body.style.overflow = "";
+
     const updateMedia = () => setIsDesktop(window.innerWidth >= 1024);
 
     useEffect(() => {
