@@ -428,6 +428,20 @@ header .header--nav .header--nav--ul button .close {
     margin-bottom: 45px;
     font-size: .9375rem;
   }
+  .cart--modal .guarantee--container {
+    gap: 8px;
+  }
+  .cart--modal .guarantee--container img {
+    width: 90px;
+    height: 85.41px;
+  }
+  .cart--modal .guarantee--container h4 {
+    font-size: .9375rem;
+    margin-bottom: 8px;
+  }
+  .cart--modal .guarantee--container p {
+    font-size: .675rem;
+  }
 }
 
 .hero--container {

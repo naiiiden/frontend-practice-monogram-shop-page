@@ -128,5 +128,23 @@
                 font-size: .9375rem;
             }
         }
+
+        .guarantee--container {
+            gap: 8px;
+
+            img {
+                width: 90px;
+                height: 85.41px;
+            }
+
+            h4 {
+                font-size: .9375rem;
+                margin-bottom: 8px;
+            }
+
+            p {
+                font-size: .675rem;
+            }
+        }
     }
 }
