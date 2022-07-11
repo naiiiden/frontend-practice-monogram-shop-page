@@ -240,5 +240,28 @@
                 gap: 8px;
             }
         }
+
+        .checkout--container {
+            .price--container {
+                margin-top: 11px;
+                margin-bottom: 18.75px;
+
+                h5, p {
+                    font-size: .9375rem;
+                }
+            }
+
+            .checkout--button {
+                margin: 3.75px 0 15px 0;
+                
+                button {
+                    font-size: .84375rem;
+                }
+            }
+
+            .discount--button {
+                font-size: .70325rem;
+            }
+        }
     }
 }

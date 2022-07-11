@@ -555,6 +555,22 @@ header .header--nav .header--nav--ul button .close {
   .cart--modal .payments--container .available--payments {
     gap: 8px;
   }
+  .cart--modal .checkout--container .price--container {
+    margin-top: 11px;
+    margin-bottom: 18.75px;
+  }
+  .cart--modal .checkout--container .price--container h5, .cart--modal .checkout--container .price--container p {
+    font-size: .9375rem;
+  }
+  .cart--modal .checkout--container .checkout--button {
+    margin: 3.75px 0 15px 0;
+  }
+  .cart--modal .checkout--container .checkout--button button {
+    font-size: .84375rem;
+  }
+  .cart--modal .checkout--container .discount--button {
+    font-size: .70325rem;
+  }
 }
 
 .hero--container {
