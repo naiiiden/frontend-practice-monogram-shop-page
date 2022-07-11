@@ -50,9 +50,9 @@ const Cart = ({ onClick, className }) => {
                     <p>$0</p>
                 </div>
                 <div className="checkout--button">
-                    <button>CHECKOUT</button>
+                    <button disabled>CHECKOUT</button>
                 </div>
-                <button>GIFT CARD OR DISCOUNT CODE</button>
+                <button className="discount--button">GIFT CARD OR DISCOUNT CODE</button>
             </section>
         </section>
     )
