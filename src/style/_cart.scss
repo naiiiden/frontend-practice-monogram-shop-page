@@ -265,3 +265,16 @@
         }
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .cart--modal {
+        .empty--cart--text {
+            p {
+                a:hover {
+                    color: #e28f74;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

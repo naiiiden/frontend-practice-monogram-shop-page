@@ -573,6 +573,13 @@ header .header--nav .header--nav--ul button .close {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .cart--modal .empty--cart--text p a:hover {
+    color: #e28f74;
+    text-decoration: underline;
+  }
+}
+
 .hero--container {
   height: 556px;
   background: url("../images/banner.png") no-repeat;
