@@ -271,8 +271,22 @@
         .empty--cart--text {
             p {
                 a:hover {
-                    color: #e28f74;
+                    color: #ff3e05;
                     text-decoration: underline;
+                }
+            }
+        }
+
+        .checkout--container {
+
+            .discount--button {
+                transition: .2s;
+                cursor: pointer;
+
+                &:hover {
+                    color: #ff3e05;
+                    text-decoration: underline;
+                    transition: .2s;
                 }
             }
         }

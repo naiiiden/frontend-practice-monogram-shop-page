@@ -575,8 +575,19 @@ header .header--nav .header--nav--ul button .close {
 
 @media screen and (min-width: 1024px) {
   .cart--modal .empty--cart--text p a:hover {
-    color: #e28f74;
+    color: #ff3e05;
     text-decoration: underline;
+  }
+  .cart--modal .checkout--container .discount--button {
+    -webkit-transition: .2s;
+    transition: .2s;
+    cursor: pointer;
+  }
+  .cart--modal .checkout--container .discount--button:hover {
+    color: #ff3e05;
+    text-decoration: underline;
+    -webkit-transition: .2s;
+    transition: .2s;
   }
 }
 
