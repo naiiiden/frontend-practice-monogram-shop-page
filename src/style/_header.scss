@@ -51,6 +51,8 @@ header {
             height: 100%;
 
             &.show {
+                pointer-events: all;
+                user-select: all;
                 overflow: auto;
                 display: flex;
                 flex-direction: column;

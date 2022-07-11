@@ -12,6 +12,8 @@ const Header = () => {
     const [openCart, setOpenCart] = useState(false);
 
     openCart || openMenu ? document.body.style.overflow = "hidden" : document.body.style.overflow = "";
+    openCart || openMenu ? document.body.style.pointerEvents = "none" : document.body.style.pointerEvents = "";
+    openCart || openMenu ? document.body.style.userSelect = "none" : document.body.style.pointerEvents = "";
 
     const updateMedia = () => setIsDesktop(window.innerWidth >= 1024);
 

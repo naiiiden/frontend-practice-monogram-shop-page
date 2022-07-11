@@ -1,4 +1,6 @@
 .cart--modal {
+    pointer-events: all;
+    user-select: all;
     overflow: auto;
     position: fixed;
     top: 0;
@@ -9,7 +11,6 @@
     transition: transform .3s;
     display: flex;
     flex-direction: column;
-    // justify-content: space-between;
     
     &.show {
         background: $white;

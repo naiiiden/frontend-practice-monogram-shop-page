@@ -92,6 +92,11 @@ header .header--nav .header--nav--ul {
 }
 
 header .header--nav .header--nav--ul.show {
+  pointer-events: all;
+  -webkit-user-select: all;
+     -moz-user-select: all;
+      -ms-user-select: all;
+          user-select: all;
   overflow: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -290,6 +295,11 @@ header .header--nav .header--nav--ul button .close {
 }
 
 .cart--modal {
+  pointer-events: all;
+  -webkit-user-select: all;
+     -moz-user-select: all;
+      -ms-user-select: all;
+          user-select: all;
   overflow: auto;
   position: fixed;
   top: 0;
