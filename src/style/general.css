@@ -407,6 +407,28 @@ header .header--nav .header--nav--ul button .close {
   line-height: 1.5;
 }
 
+.cart--modal .empty--space {
+  height: 29.5vh;
+}
+
+.cart--modal .payments--container p {
+  text-align: center;
+  font-size: .735rem;
+  color: #6c757d;
+  font-weight: 300;
+}
+
+.cart--modal .payments--container .available--payments {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 6px;
+}
+
 @media screen and (min-width: 375px) {
   .cart--modal {
     width: 350px;
@@ -441,6 +463,12 @@ header .header--nav .header--nav--ul button .close {
   }
   .cart--modal .guarantee--container p {
     font-size: .675rem;
+  }
+  .cart--modal .payments--container p {
+    font-size: .79rem;
+  }
+  .cart--modal .payments--container .available--payments {
+    gap: 8px;
   }
 }
 

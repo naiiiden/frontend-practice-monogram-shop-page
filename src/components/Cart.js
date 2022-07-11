@@ -31,6 +31,7 @@ const Cart = ({ onClick, className }) => {
                         <p>Try Monogram Creative Console in your own workflow for 30 days. If it does not improve your editing experience, you can return it for a full&nbsp;refund.</p>
                     </div>
                 </div>
+                <div className="empty--space"></div>
                 <div className="payments--container">
                     <p><small>SECURE PAYMENTS</small></p>
                     <ul className="available--payments">

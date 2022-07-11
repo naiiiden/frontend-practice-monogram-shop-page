@@ -97,6 +97,26 @@
             line-height: 1.5;
         }
     }
+
+    .empty--space {
+        height: 29.5vh;
+    }
+
+    .payments--container {
+        p {
+            text-align: center;
+            font-size: .735rem;
+            color: $gray;
+            font-weight: 300;
+        }
+
+        .available--payments {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            gap: 6px;
+        }
+    }
 }
 
 @media screen and (min-width: 375px) {
@@ -144,6 +164,16 @@
 
             p {
                 font-size: .675rem;
+            }
+        }
+
+        .payments--container {
+            p {
+                font-size: .79rem;
+            }
+
+            .available--payments {
+                gap: 8px;
             }
         }
     }
