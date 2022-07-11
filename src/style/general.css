@@ -383,6 +383,9 @@ header .header--nav .header--nav--ul button .close {
 }
 
 @media screen and (min-width: 768px) {
+  .cart--modal .items--container {
+    padding: 1rem;
+  }
   .cart--modal .arrow--container button {
     font-size: .85rem;
   }

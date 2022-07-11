@@ -80,6 +80,10 @@
 
 @media screen and (min-width: 768px) {
     .cart--modal {
+        .items--container {
+            padding: 1rem;
+        }
+
         .arrow--container {
             button {
                 font-size: .85rem;
