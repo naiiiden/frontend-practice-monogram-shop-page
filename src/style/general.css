@@ -386,6 +386,14 @@ header .header--nav .header--nav--ul button .close {
   .cart--modal .arrow--container button {
     font-size: .85rem;
   }
+  .cart--modal .empty--cart--text h3 {
+    margin: 55px 0 15px 0;
+    font-size: 1.172rem;
+  }
+  .cart--modal .empty--cart--text p {
+    margin-bottom: 45px;
+    font-size: .9375rem;
+  }
 }
 
 .hero--container {
