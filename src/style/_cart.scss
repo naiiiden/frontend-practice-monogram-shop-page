@@ -1,3 +1,15 @@
+.click--outside {
+    &.close {
+        width: 100vw;
+        height: 1000vh;
+        background: transparent;
+        position: absolute;
+        z-index: 98;
+        user-select: all !important;
+        pointer-events: all !important;
+    }
+}
+
 .cart--modal {
     pointer-events: all;
     user-select: all;

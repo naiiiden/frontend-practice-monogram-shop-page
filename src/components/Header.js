@@ -57,6 +57,9 @@ const Header = () => {
                 </ul>
             </nav>
         </header>) : (
+            <>
+            <div className={`click--outside ${openCart ? "close" : ""}`} onClick={() => setOpenCart(false)}>
+            </div>
             <header>
             <a href="https://monogramcc.com/" className="logo--link"><Monogram className="monogram"/></a>
             <div className="header--buttons--container">
@@ -64,7 +67,7 @@ const Header = () => {
                     <Cart className="cart--icon"/>
                 </button>
             </div>
-            <CartModal className={`cart--modal ${openCart ? "show" : ""}`} onClick={() => setOpenCart(false)}/>
+                <CartModal className={`cart--modal ${openCart ? "show" : ""}`} onClick={() => setOpenCart(false)}/>
             <nav className="header--nav">
                 <ul className="header--nav--ul">
                     <li><a href="https://monogramcc.com/how-it-works/">HOW IT WORKS</a></li>
@@ -85,6 +88,7 @@ const Header = () => {
                 </ul>
             </nav>
         </header>
+        </>
         )}
         </>
     )
