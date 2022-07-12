@@ -26,7 +26,7 @@ const Header = () => {
         <>
         {!isDesktop ? (
             <>
-            <div className={`click--outside ${openCart ? "close" : ""}`} onClick={() => setOpenCart(false)}></div>
+            <div className={`click--outside ${openCart ? "close" : ""} ${openMenu ? "close" : ""}`} onClick={() => (setOpenCart(false), setOpenMenu(false))}></div>
             <header>
                 <a href="https://monogramcc.com/" className="logo--link"><Monogram className="monogram"/></a>
                 <div className="header--buttons--container">
@@ -63,7 +63,7 @@ const Header = () => {
             </>
         ) : (
             <>
-            <div className={`click--outside ${openCart ? "close" : ""}`} onClick={() => setOpenCart(false)}></div>
+            <div className={`click--outside ${openCart ? "close" : ""} ${openMenu ? "close" : ""}`} onClick={() => (setOpenCart(false), setOpenMenu(false))}></div>
             <header>
             <a href="https://monogramcc.com/" className="logo--link"><Monogram className="monogram"/></a>
             <div className="header--buttons--container">
