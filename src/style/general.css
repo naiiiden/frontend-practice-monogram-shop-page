@@ -23,6 +23,19 @@ img {
   height: auto;
 }
 
+.click--outside.close {
+  width: 100vw;
+  height: 1000vh;
+  background: transparent;
+  position: absolute;
+  z-index: 98;
+  -webkit-user-select: all !important;
+     -moz-user-select: all !important;
+      -ms-user-select: all !important;
+          user-select: all !important;
+  pointer-events: all !important;
+}
+
 header {
   -webkit-box-shadow: 1px 11px 35px rgba(0, 0, 0, 0.15);
           box-shadow: 1px 11px 35px rgba(0, 0, 0, 0.15);
@@ -295,19 +308,6 @@ header .header--nav .header--nav--ul button .close {
     margin-left: 3px;
     content: "⏷";
   }
-}
-
-.click--outside.close {
-  width: 100vw;
-  height: 1000vh;
-  background: transparent;
-  position: absolute;
-  z-index: 98;
-  -webkit-user-select: all !important;
-     -moz-user-select: all !important;
-      -ms-user-select: all !important;
-          user-select: all !important;
-  pointer-events: all !important;
 }
 
 .cart--modal {

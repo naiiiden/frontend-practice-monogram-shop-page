@@ -54,6 +54,18 @@ img {
     height: auto;
 }
 
+.click--outside {
+    &.close {
+        width: 100vw;
+        height: 1000vh;
+        background: transparent;
+        position: absolute;
+        z-index: 98;
+        user-select: all !important;
+        pointer-events: all !important;
+    }
+}
+
 @import "./header";
 @import "./cart";
 @import "./hero";
