@@ -7,7 +7,7 @@ const Hero = ({ h1Text, pText, href }) => {
                 <h1>{h1Text}</h1>
                 <p>{pText}</p>
             </div>
-            <a href={href}><Arrow className="arrow"/></a>
+            <a href={href} aria-label="Go to products"><Arrow className="arrow"/></a>
         </div>
     )
 }
