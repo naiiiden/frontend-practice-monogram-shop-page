@@ -45,7 +45,7 @@ const Footer = () => {
                     <li><p>Master productivity With Creative Console and get all the latest Monogram news.</p></li>
                     <li>
                         <form className="footer--form">
-                            <input type="email" placeholder="Email Address"/>
+                            <input type="email" placeholder="Email Address" aria-label="Email Address"/>
                             <input type="submit" value="SUBMIT"/>
                         </form>
                     </li>
