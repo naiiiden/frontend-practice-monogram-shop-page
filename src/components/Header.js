@@ -28,7 +28,7 @@ const Header = () => {
             <>
             <div className={`click--outside ${openCart ? "close" : ""} ${openMenu ? "close" : ""}`} onClick={() => (setOpenCart(false), setOpenMenu(false))}></div>
             <header>
-                <a href="https://monogramcc.com/" className="logo--link"><Monogram className="monogram"/></a>
+                <a href="https://monogramcc.com/" className="logo--link" aria-label="Go to homepage"><Monogram className="monogram"/></a>
                 <div className="header--buttons--container">
                     <button aria-label="Open menu" onClick={() => setOpenMenu(true)}>
                         <Menu className="menu--icon"/>
@@ -65,7 +65,7 @@ const Header = () => {
             <>
             <div className={`click--outside ${openCart ? "close" : ""} ${openMenu ? "close" : ""}`} onClick={() => (setOpenCart(false), setOpenMenu(false))}></div>
             <header>
-            <a href="https://monogramcc.com/" className="logo--link"><Monogram className="monogram"/></a>
+            <a href="https://monogramcc.com/" className="logo--link" aria-label="Go to homepage"><Monogram className="monogram"/></a>
             <div className="header--buttons--container">
                 <button aria-label="Go to checkout" onClick={() => setOpenCart(true)}>
                     <Cart className="cart--icon"/>
