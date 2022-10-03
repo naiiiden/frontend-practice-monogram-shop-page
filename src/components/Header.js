@@ -30,7 +30,7 @@ const Header = () => {
             <header>
                 <a href="https://monogramcc.com/" className="logo--link" aria-label="Go to homepage"><Monogram className="monogram"/></a>
                 <div className="header--buttons--container">
-                    <button aria-label="Open menu" onClick={() => setOpenMenu(true)}>
+                    <button aria-label="Open menu" aria-haspopup="true" aria-expanded={openMenu ? "true" : "false"} onClick={() => setOpenMenu(true)}>
                         <Menu className="menu--icon"/>
                     </button>
                     <button aria-label="Go to checkout" onClick={() => setOpenCart(true)}>
