@@ -22,30 +22,30 @@ const Footer = () => {
                 </div>
                 <div className="footer--nav--ul">
                     <h4>QUICK LINKS</h4>
-                    <ul className="footer--nav--ul">
-                        <li><a href="https://monogramcc.com/">Home</a></li>
-                        <li><a href="https://monogramcc.com/how-it-works/">How it Works</a></li>
-                        <li><a href="https://monogramcc.com/shop/">Shop</a></li>
-                        <li><a href="https://monogramcc.com/download/">Download</a></li>
+                    <ul className="footer--nav--ul" role="menu">
+                        <li role="none"><a role="menuitem" href="https://monogramcc.com/">Home</a></li>
+                        <li role="none"><a role="menuitem" href="https://monogramcc.com/how-it-works/">How it Works</a></li>
+                        <li role="none"><a role="menuitem" href="https://monogramcc.com/shop/">Shop</a></li>
+                        <li role="none"><a role="menuitem" href="https://monogramcc.com/download/">Download</a></li>
                     </ul>
                 </div>
                 <div className="footer--nav--ul">
                     <h4>HELP</h4>
-                    <ul className="footer--nav--ul">
-                        <li><a href="https://support.monogramcc.com/hc/en-us/sections/203555177-Frequently-Asked-Questions">FAQs</a></li>
-                        <li><a href="https://support.monogramcc.com/">Support Center</a></li>
-                        <li><a href="https://monogramcc.com/shipping-and-sales/">Shipping and Sales</a></li>
+                    <ul className="footer--nav--ul" role="menu">
+                        <li role="none"><a role="menuitem" href="https://support.monogramcc.com/hc/en-us/sections/203555177-Frequently-Asked-Questions">FAQs</a></li>
+                        <li role="none"><a role="menuitem" href="https://support.monogramcc.com/">Support Center</a></li>
+                        <li role="none"><a role="menuitem" href="https://monogramcc.com/shipping-and-sales/">Shipping and Sales</a></li>
                     </ul>
                 </div>
                 <div className="footer--nav--ul">
                     <h4>INFORMATION</h4>
-                    <ul className="footer--nav--ul">
-                        <li><a href="https://monogramcc.com/about/">About Us</a></li>
-                        <li><a href="https://monogramcc.com/about/#jobs">Work with us</a></li>
-                        <li><a href="https://monogramcc.com/privacy/">Privacy Policy</a></li>
-                        <li><a href="https://monogramcc.com/site-terms/">Terms of Use</a></li>
-                        <li><a href="https://monogramcc.com/sales-terms/">Terms of Sale</a></li>
-                        <li><a href="https://bit.ly/MonogramPress2021">Press Kit</a></li>
+                    <ul className="footer--nav--ul" role="menu">
+                        <li role="none"><a role="menuitem" href="https://monogramcc.com/about/">About Us</a></li>
+                        <li role="none"><a role="menuitem" href="https://monogramcc.com/about/#jobs">Work with us</a></li>
+                        <li role="none"><a role="menuitem" href="https://monogramcc.com/privacy/">Privacy Policy</a></li>
+                        <li role="none"><a role="menuitem" href="https://monogramcc.com/site-terms/">Terms of Use</a></li>
+                        <li role="none"><a role="menuitem" href="https://monogramcc.com/sales-terms/">Terms of Sale</a></li>
+                        <li role="none"><a role="menuitem" href="https://bit.ly/MonogramPress2021">Press Kit</a></li>
                     </ul>
                 </div>
                 <div className="footer--nav--ul">
@@ -58,11 +58,11 @@ const Footer = () => {
                                 <input type="submit" value="SUBMIT"/>
                             </form>
                         </li>
-                        <ul className="footer--socials">
-                            <li><a href="https://instagram.com/monogramcc" aria-label="Our Instagram"><Instagram className="social"/></a></li>
-                            <li><a href="https://twitter.com/monogramcc" aria-label="Our Twitter"><Twitter className="social"/></a></li>
-                            <li><a href="https://www.facebook.com/monogramcc" aria-label="Our Facebook"><Facebook className="social"/></a></li>
-                            <li><a href="https://www.youtube.com/user/paletteUI" aria-label="Our Youtube"><Youtube className="social"/></a></li>
+                        <ul className="footer--socials" role="menu">
+                            <li role="none"><a role="menuitem" href="https://instagram.com/monogramcc" aria-label="Our Instagram"><Instagram className="social"/></a></li>
+                            <li role="none"><a role="menuitem" href="https://twitter.com/monogramcc" aria-label="Our Twitter"><Twitter className="social"/></a></li>
+                            <li role="none"><a role="menuitem" href="https://www.facebook.com/monogramcc" aria-label="Our Facebook"><Facebook className="social"/></a></li>
+                            <li role="none"><a role="menuitem" href="https://www.youtube.com/user/paletteUI" aria-label="Our Youtube"><Youtube className="social"/></a></li>
                         </ul>
                         <li><p>© Monogram 2022</p></li>
                     </ul>
