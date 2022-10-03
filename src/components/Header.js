@@ -39,24 +39,24 @@ const Header = () => {
                 </div>
                 <CartModal className={`cart--modal ${openCart ? "show" : ""}`} onClick={() => setOpenCart(false)}/>
                 <nav className="header--nav">
-                    <ul className={`header--nav--ul ${openMenu ? "show" : ""}`}>
-                        <li className="logo--close--container">
+                    <ul className={`header--nav--ul ${openMenu ? "show" : ""}`} role="menubar">
+                        <li role="none" className="logo--close--container">
                             <Monogram className="monogram"/>
                             <button aria-label="Close menu" onClick={() => setOpenMenu(false)} className="close--button">
                                 <Close className="close"/>
                             </button>
                         </li>
-                        <li><a href="https://monogramcc.com/how-it-works/">HOW IT WORKS</a></li>
-                        <li><a href="https://monogramcc.com/workflows/photo/">WORKFLOWS</a></li>
-                        <li className="link-padding-left"><a href="https://monogramcc.com/workflows/photo/">PHOTO CONSOLE</a></li>
-                        <li className="link-padding-left"><a href="https://monogramcc.com/workflows/video/">VIDEO CONSOLE</a></li>
-                        <li className="link-padding-left"><a href="https://monogramcc.com/workflows/audio/">AUDIO CONSOLE</a></li>
-                        <li className="link-padding-left"><a href="https://monogramcc.com/workflows/virtual-production/">VIRTUAL PRODUCTION</a></li>
-                        <li className="link-padding-left"><a href="https://monogramcc.com/workflows/everyday-essentials/">MINI CONSOLE</a></li>
-                        <li><a href="https://monogramcc.com/download/">DOWNLOAD</a></li>
-                        <li><a href="https://monogramcc.com/blog/">BLOG</a></li>
-                        <li><a href="https://support.monogramcc.com/">SUPPORT</a></li>
-                        <li><a aria-current="page" href="#0" className="link--bold">SHOP</a></li>
+                        <li role="none"><a role="menuitem" href="https://monogramcc.com/how-it-works/">HOW IT WORKS</a></li>
+                        <li role="none"><a role="menuitem" href="https://monogramcc.com/workflows/photo/">WORKFLOWS</a></li>
+                        <li role="none" className="link-padding-left"><a role="menuitem" href="https://monogramcc.com/workflows/photo/">PHOTO CONSOLE</a></li>
+                        <li role="none" className="link-padding-left"><a role="menuitem" href="https://monogramcc.com/workflows/video/">VIDEO CONSOLE</a></li>
+                        <li role="none" className="link-padding-left"><a role="menuitem" href="https://monogramcc.com/workflows/audio/">AUDIO CONSOLE</a></li>
+                        <li role="none" className="link-padding-left"><a role="menuitem" href="https://monogramcc.com/workflows/virtual-production/">VIRTUAL PRODUCTION</a></li>
+                        <li role="none" className="link-padding-left"><a role="menuitem" href="https://monogramcc.com/workflows/everyday-essentials/">MINI CONSOLE</a></li>
+                        <li role="none"><a role="menuitem" href="https://monogramcc.com/download/">DOWNLOAD</a></li>
+                        <li role="none"><a role="menuitem" href="https://monogramcc.com/blog/">BLOG</a></li>
+                        <li role="none"><a role="menuitem" href="https://support.monogramcc.com/">SUPPORT</a></li>
+                        <li role="none"><a role="menuitem" aria-current="page" href="#0" className="link--bold">SHOP</a></li>
                     </ul>
                 </nav>
             </header>
@@ -73,22 +73,22 @@ const Header = () => {
             </div>
                 <CartModal className={`cart--modal ${openCart ? "show" : ""}`} onClick={() => setOpenCart(false)}/>
             <nav className="header--nav">
-                <ul className="header--nav--ul">
-                    <li><a href="https://monogramcc.com/how-it-works/">HOW IT WORKS</a></li>
-                    <li className={`dropdown--link ${openDesktopMenu ? "active" : ""}`}>
-                        <a aria-haspopup="true" role="button" href="#0" className="dropdown--link" onClick={() => setOpenDesktopMenu(!openDesktopMenu)}>WORKFLOWS</a>
-                        <ul className={`header--desktop--dropdown ${openDesktopMenu ? "showDesktop" : ""}`}>
-                            <li className="link-padding-left"><a href="https://monogramcc.com/workflows/photo/">PHOTO CONSOLE</a></li>
-                            <li className="link-padding-left"><a href="https://monogramcc.com/workflows/video/">VIDEO CONSOLE</a></li>
-                            <li className="link-padding-left"><a href="https://monogramcc.com/workflows/audio/">AUDIO CONSOLE</a></li>
-                            <li className="link-padding-left"><a href="https://monogramcc.com/workflows/virtual-production/">VIRTUAL PRODUCTION</a></li>
-                            <li className="link-padding-left"><a href="https://monogramcc.com/workflows/everyday-essentials/">MINI CONSOLE</a></li>
+                <ul className="header--nav--ul" role="menubar">
+                    <li role="none"><a href="https://monogramcc.com/how-it-works/">HOW IT WORKS</a></li>
+                    <li role="none" className={`dropdown--link ${openDesktopMenu ? "active" : ""}`}>
+                        <a aria-haspopup="true" aria-expanded={openDesktopMenu ? "true" : "false"} role="menuitem" href="#0" className="dropdown--link" onClick={() => setOpenDesktopMenu(!openDesktopMenu)}>WORKFLOWS</a>
+                        <ul role="menu" className={`header--desktop--dropdown ${openDesktopMenu ? "showDesktop" : ""}`}>
+                            <li role="none" className="link-padding-left"><a role="menuitem" href="https://monogramcc.com/workflows/photo/">PHOTO CONSOLE</a></li>
+                            <li role="none" className="link-padding-left"><a role="menuitem" href="https://monogramcc.com/workflows/video/">VIDEO CONSOLE</a></li>
+                            <li role="none" className="link-padding-left"><a role="menuitem" href="https://monogramcc.com/workflows/audio/">AUDIO CONSOLE</a></li>
+                            <li role="none" className="link-padding-left"><a role="menuitem" href="https://monogramcc.com/workflows/virtual-production/">VIRTUAL PRODUCTION</a></li>
+                            <li role="none" className="link-padding-left"><a role="menuitem" href="https://monogramcc.com/workflows/everyday-essentials/">MINI CONSOLE</a></li>
                         </ul>
                     </li>
-                    <li><a href="https://monogramcc.com/download/">DOWNLOAD</a></li>
-                    <li><a href="https://monogramcc.com/blog/">BLOG</a></li>
-                    <li><a href="https://support.monogramcc.com/">SUPPORT</a></li>
-                    <li><a href="https://monogramcc.com/shop/" className="link--bold">SHOP</a></li>
+                    <li role="none"><a role="menuitem" href="https://monogramcc.com/download/">DOWNLOAD</a></li>
+                    <li role="none"><a role="menuitem" href="https://monogramcc.com/blog/">BLOG</a></li>
+                    <li role="none"><a role="menuitem" href="https://support.monogramcc.com/">SUPPORT</a></li>
+                    <li role="none"><a role="menuitem" href="https://monogramcc.com/shop/" className="link--bold">SHOP</a></li>
                 </ul>
             </nav>
         </header>
