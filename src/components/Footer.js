@@ -50,10 +50,10 @@ const Footer = () => {
                         </form>
                     </li>
                     <ul className="footer--socials">
-                        <li><a href="https://instagram.com/monogramcc"><Instagram className="social"/></a></li>
-                        <li><a href="https://twitter.com/monogramcc"><Twitter className="social"/></a></li>
-                        <li><a href="https://www.facebook.com/monogramcc"><Facebook className="social"/></a></li>
-                        <li><a href="https://www.youtube.com/user/paletteUI"><Youtube className="social"/></a></li>
+                        <li><a href="https://instagram.com/monogramcc" aria-label="Our Instagram"><Instagram className="social"/></a></li>
+                        <li><a href="https://twitter.com/monogramcc" aria-label="Our Twitter"><Twitter className="social"/></a></li>
+                        <li><a href="https://www.facebook.com/monogramcc" aria-label="Our Facebook"><Facebook className="social"/></a></li>
+                        <li><a href="https://www.youtube.com/user/paletteUI" aria-label="Our Youtube"><Youtube className="social"/></a></li>
                     </ul>
                     <li><p>© Monogram 2022</p></li>
                 </ul>
