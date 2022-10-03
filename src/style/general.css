@@ -332,7 +332,7 @@ header .header--nav .header--nav--ul button .close {
   font-weight: 600;
   color: #1a2456;
   letter-spacing: 1.5px;
-  line-height: 1.2;
+  line-height: 1.5;
   margin-bottom: 7px;
 }
 .cart--modal .guarantee--container p {
@@ -375,7 +375,7 @@ header .header--nav .header--nav--ul button .close {
 .cart--modal .checkout--container .price--container h5, .cart--modal .checkout--container .price--container p {
   font-size: 0.875rem;
   font-weight: 600;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 1.5px;
   color: #fff;
 }
