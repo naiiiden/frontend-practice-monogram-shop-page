@@ -33,7 +33,7 @@ const Header = () => {
                     <button aria-label="Open menu" aria-haspopup="true" aria-expanded={openMenu ? "true" : "false"} onClick={() => setOpenMenu(true)}>
                         <Menu className="menu--icon"/>
                     </button>
-                    <button aria-label="Go to checkout" onClick={() => setOpenCart(true)}>
+                    <button aria-label="Open checkout" aria-haspopup="true" aria-expanded={openCart ? "true" : "false"} onClick={() => setOpenCart(true)}>
                         <Cart className="cart--icon"/>
                     </button>
                 </div>
