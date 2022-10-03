@@ -6,7 +6,7 @@ import { ReactComponent as Youtube } from "../images/youtube.svg";
 const Footer = () => {
     return (
         <footer className="footer">
-            <nav className="footer--nav">
+            <nav aria-label="Footer" className="footer--nav">
                 <ul className="footer--nav--ul">
                     <li><h4>MONOGRAM</h4></li>
                     <li>
